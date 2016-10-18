@@ -29,11 +29,15 @@ For you to sit here today, innumerable cell divisions have to be executed virtua
 
 Over the last three years, I've been working in Bela Novak's group on a set of projects in this context aimed at shedding more light on a problem, which could be stated in colloquial terms as follows:
 
+*30s*
+
 #### Slide 1.2 - Question in plain words
 
 How do cells make sure that they put on their socks before they put on their shoes?
 
 **PAUSE**
+
+*10s*
 
 ### Slide 2.1 - Cell Cycle Overview
 
@@ -56,6 +60,9 @@ In my work I focus on the regulation of mitosis, where it is absolutely crucial 
 5. This so-called central spindle also serves the purpose of determining the position of the equator of the cell in **Telophase**, when the cell membrane begins to gradually invade the equatorial plane, while the cell elongates.
 Moreover, **Telophase** can be understood as prophase in reverse: The nuclear envelope is reassembled on the chromatin, which in turn becomes decondensed.
 
+*90s*
+*total: 2:10*
+
 #### Slide 2.2 - Reframe question
 
 Do you spot the issue with this all too smooth description of this process?
@@ -67,9 +74,15 @@ This is only one prominent example! Likewise, reassembling the nuclear envelope 
 
 SO: How can temporal order and control arise in self-organised molecular systems?
 
+*40s*
+
 #### Slide 2.3 - Extra Slide for Dramatic Effect
 
 A very general answer to this question is **Feedback Control**
+
+*10s*
+
+*total: 3:00*
 
 ### Slide 3.1 - Mitotic Checkpoint
 
@@ -80,6 +93,8 @@ This checkpoint consists of two sub-modules: a surveillance and error correction
 The error corretion module monitors the attachment state of each chromatid pair and destabilises incorrect attachments. The checkpoint enforcement mechanism produces a soluble inhibitor that prevents premature initiation of anaphase.
 
 The field on this topic is quite big, and thanks to momentuous effort, we know a lot about the molecular basis of the mitotic checkpoint...
+
+*30s*
 
 #### Slide 3.2 - Error Correction
 To destabilise incorrect attachment configuration, such as
@@ -95,15 +110,21 @@ Only correct, amphitelic attachment configuration will experience equal drag fro
 
 This provides a mechanism that biases the attachment process towards the formation of correct attachment.
 
+*40s*
+
 #### Slide 3.3 - Checkpoint effector 1
 
 To be effective at delaying anaphase until error correction the checkpoint requires a mechanism to signal incomplete biorientation to the molecular machinery that drives anaphase.
+
+*10s*
 
 #### Slide 3.4 - Checkpoint effector 2
 
 Anaphase is initiated by the activation of the E3 ubiquitin ligase anaphase promoting complex/cyclosome (APC/C) by its co-activator Cdc20. This confers it with susbtrate specificity towards it's early anaphase substrates cyclin B and securin and allows it to target them for proteasomal degradation.
 Securin acts as chaperone and stoichiometric inhibitor of separase, which promotes the segragation of sister chromatids as specific protease to cohesin.
 Cyclin B is the crucial activator of the mitotic cyclin-dependent kinase, CDK1, whose activity high in mitosis and crucial in maintaining the mitotic state.
+
+*30s*
 
 #### Slide 3.5 - Checkpoint effector 3
 
@@ -117,11 +138,17 @@ In prometaphase the rate of production of MCC by unattached kinetochores is suff
 Once all chromosomes have become attached, the checkpoint is satisfied, the  assembly of MCC from its components ceases, and a set of processes directing the disassembly of MCC remove the APC/C-inhibitor in metaphase, and lead to timely activation of APC/C.
 Noteably, the checkpoint retains the capacity to become re-engaged when it is satisfied. Only after the onset of anaphase does it become irreversibly inactivated.
 
+*45s*
+
+*total: 5:35*
+
 ### Slide 4.1 - Systems-Level Perspective
 
 As with any description of a biological system that suggests an all to neat and clean picture, this description should give you reason for scepticism!
 
 There are plenty of conceptual problems associated with this description:
+
+*10s*
 
 #### Slide 4.2 - Scale
 
@@ -129,12 +156,15 @@ The first problem has to do with scale: It is easy to show two pictures side-by-
 
 How can we connect the molecular state with the cellular state? - What do prometphase, metaphase and anaphase correspond to in terms of molecular signalling?
 
-#### Slide 4.3 - State
+*25s*
 
+#### Slide 4.3 - State
 
 The second problem has to do with the state of a system.
 
 What does it mean on molecular level, if we say checkpoint is on or off, signalling or satisfied?
+
+*20s*
 
 #### Slide 4.4 - Identity
 
@@ -145,6 +175,8 @@ In turn, the checkpoint effector stabilises the activity of many upstream kinase
 If we talk about error correction and checkpoint effector module, are these really two different things? Where does error correction end and the checkpoint effector module begin?
 And is this question even relevant?
 
+*40s*
+
 #### Slide 4.5 - Dissemination
 
 In the diagram I showed you before, anaphase is represented merely by degradation of cyclin B and securin and the consecutive cleavage of cohesin. Yet many processes have to be executed in well-timed manner for a cell to successfully exit from mitosis.
@@ -152,8 +184,13 @@ In the diagram I showed you before, anaphase is represented merely by degradatio
 How is the decision to exit mitosis broadcast?
 ...and how is correct timing ensured beyond the control of the mitotic checkpoint?
 
+*20s*
+*total: 7:30*
+
 ### Slide 5.1 - Models, Maps and Iteration
 Again, I would claim the answer to these questions lies in a feedback system. Now it is composed of  data-driven modelling and model-driven experimentation. This was the approach I employed in three projects aimed at deepening our understanding of the mitotic checkpoint.
+
+*20s*
 
 #### Slide 5.2 - Experiments and Simulation
 - experimental data-driven
@@ -170,9 +207,15 @@ Again, I would claim the answer to these questions lies in a feedback system. No
 
 #### Slide 6.2 - Question
 
-#### Slide 6.3 - Data
+#### Slide 6.3 - Timing
 
-#### Slide 6.4 - Simulation
+#### Slide 6.4 - Imaging
+
+#### Slide 6.5 - Tracking
+
+#### Slide 6.6 - Model
+
+#### Slide 6.7 - Simulation
 
 #### Slide 6.5 - Testing
 
