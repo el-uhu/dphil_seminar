@@ -1,5 +1,7 @@
 # Notes on DPhil Seminar
 
+---
+
 ## Problem Definition
 - Convey a comprehensive, yet accessible overview of the work I conducted in the course of my thesis.
 - Make the story flow well.
@@ -12,9 +14,11 @@
 - How can we map this decision-making space?
 - What are these maps useful for?
 
+---
+
 ## Script
 
-### Slide 1 - Staging the story
+### Slide 1.1 - Staging the story
 *All cells come from cells* - If you step back for a second and consider this statement, it is remarkable how much weight this statement has:
 
 As adults, our body consists of several trillion cells, yet we start out from a single fertilised egg.
@@ -25,13 +29,13 @@ For you to sit here today, innumerable cell divisions have to be executed virtua
 
 Over the last three years, I've been working in Bela Novak's group on a set of projects in this context aimed at shedding more light on a problem, which could be stated in colloquial terms as follows:
 
-### Slide 2 - Question in plain words
+#### Slide 1.2 - Question in plain words
 
 How do cells make sure that they put on their socks before they put on their shoes?
 
 **PAUSE**
 
-### Slide 3 - Cell Cycle Overview
+### Slide 2.1 - Cell Cycle Overview
 
 Let me elaborate a bit more:
 
@@ -52,7 +56,7 @@ In my work I focus on the regulation of mitosis, where it is absolutely crucial 
 5. This so-called central spindle also serves the purpose of determining the position of the equator of the cell in **Telophase**, when the cell membrane begins to gradually invade the equatorial plane, while the cell elongates.
 Moreover, **Telophase** can be understood as prophase in reverse: The nuclear envelope is reassembled on the chromatin, which in turn becomes decondensed.
 
-### Slide 4 - Reframe question
+#### Slide 2.2 - Reframe question
 
 Do you spot the issue with this all too smooth description of this process?
 Cells encode the identity of chromatids topologically, by tying corresponding sisters together, and breaks these ties only if the mitotic spindle can pull them apart correctly.
@@ -63,11 +67,11 @@ This is only one prominent example! Likewise, reassembling the nuclear envelope 
 
 SO: How can temporal order and control arise in self-organised molecular systems?
 
-### Slide 5 - Extra Slide for Dramatic Effect
+#### Slide 2.3 - Extra Slide for Dramatic Effect
 
 A very general answer to this question is **Feedback Control**
 
-### Slide 6 - Mitotic Checkpoint
+### Slide 3.1 - Mitotic Checkpoint
 
 Cells have evolved an intricate feedback control system, which I shall call the Mitotic Checkpoint. It delays progression into anaphase until all pairs of sisters have become bioriented.
 
@@ -77,7 +81,7 @@ The error corretion module monitors the attachment state of each chromatid pair 
 
 The field on this topic is quite big, and thanks to momentuous effort, we know a lot about the molecular basis of the mitotic checkpoint...
 
-### Slide 7 - Error Correction
+#### Slide 3.2 - Error Correction
 To destabilise incorrect attachment configuration, such as
 - monotelic
 - syntelic
@@ -91,17 +95,17 @@ Only correct, amphitelic attachment configuration will experience equal drag fro
 
 This provides a mechanism that biases the attachment process towards the formation of correct attachment.
 
-### Slide 8 - Checkpoint effector 1
+#### Slide 3.3 - Checkpoint effector 1
 
 To be effective at delaying anaphase until error correction the checkpoint requires a mechanism to signal incomplete biorientation to the molecular machinery that drives anaphase.
 
-### Slide 9 - Checkpoint effector 2
+#### Slide 3.4 - Checkpoint effector 2
 
 Anaphase is initiated by the activation of the E3 ubiquitin ligase anaphase promoting complex/cyclosome (APC/C) by its co-activator Cdc20. This confers it with susbtrate specificity towards it's early anaphase substrates cyclin B and securin and allows it to target them for proteasomal degradation.
 Securin acts as chaperone and stoichiometric inhibitor of separase, which promotes the segragation of sister chromatids as specific protease to cohesin.
 Cyclin B is the crucial activator of the mitotic cyclin-dependent kinase, CDK1, whose activity high in mitosis and crucial in maintaining the mitotic state.
 
-### Slide 10 - Checkpoint effector 3
+#### Slide 3.5 - Checkpoint effector 3
 
 To delay the singular event of APC/C:Cdc20 activation that drives the cell into anaphase in a manner that gives the error correction time to promote amphitelic attachments, cells produce a soluble inhibitor called mitotic checkpoint complex (MCC).
 
@@ -113,22 +117,67 @@ In prometaphase the rate of production of MCC by unattached kinetochores is suff
 Once all chromosomes have become attached, the checkpoint is satisfied, the  assembly of MCC from its components ceases, and a set of processes directing the disassembly of MCC remove the APC/C-inhibitor in metaphase, and lead to timely activation of APC/C.
 Noteably, the checkpoint retains the capacity to become re-engaged when it is satisfied. Only after the onset of anaphase does it become irreversibly inactivated.
 
+### Slide 4.1 - Systems-Level Perspective
+
+As with any description of a biological system that suggests an all to neat and clean picture, this description should give you reason for scepticism!
+
+There are plenty of conceptual problems associated with this description:
+
+#### Slide 4.2 - Scale
+
+The first problem has to do with scale: It is easy to show two pictures side-by-side: One, representing the cell say in anaphase, and another one showing how APC/C degrades cyclin B. This may implicitly imply a connection, but it is not spelled out.
+
+How can we connect the molecular state with the cellular state? - What do prometphase, metaphase and anaphase correspond to in terms of molecular signalling?
+
+#### Slide 4.3 - State
 
 
+The second problem has to do with the state of a system.
 
+What does it mean on molecular level, if we say checkpoint is on or off, signalling or satisfied?
 
+#### Slide 4.4 - Identity
 
+Despite having presented them as entirely distinct entities, error correction and checkpoint effector are intimately interconnected.
+Error correction produces the unattached kinetochores and thereby generates the very signal the checkpoint effector responds to.
+In turn, the checkpoint effector stabilises the activity of many upstream kinases such as Cdk1, Aurora B and Mps1 that are required for the activity of both error correction and checkpoint effector modules.
 
-### Nuanced Discussion of Problems
- - **Boundaries/Crosstalk**
- - **Sensitivity**
- - **Irreversibility**
- - **Dispatch**
+If we talk about error correction and checkpoint effector module, are these really two different things? Where does error correction end and the checkpoint effector module begin?
+And is this question even relevant?
 
-### Presentation of my Work
+#### Slide 4.5 - Dissemination
 
-#### Crosstalk
+In the diagram I showed you before, anaphase is represented merely by degradation of cyclin B and securin and the consecutive cleavage of cohesin. Yet many processes have to be executed in well-timed manner for a cell to successfully exit from mitosis.
 
-#### Mapping Metaphase
+How is the decision to exit mitosis broadcast?
+...and how is correct timing ensured beyond the control of the mitotic checkpoint?
 
-#### Models as Heuristic
+### Slide 5.1 - Models, Maps and Iteration
+Again, I would claim the answer to these questions lies in a feedback system. Now it is composed of  data-driven modelling and model-driven experimentation. This was the approach I employed in three projects aimed at deepening our understanding of the mitotic checkpoint.
+
+#### Slide 5.2 - Experiments and Simulation
+- experimental data-driven
+- formulate hypothesis
+- simulate, and bring into agreement
+- show model that displays bistability
+
+#### Slide 5.3 - Mapping
+- construct maps model that allow us to understand the abstract decision-making space in terms of steady states of the molecular regulators
+
+#### Slide 5.4 - Interpretation
+
+### Slide 6.1 - Crosstalk
+
+#### Slide 6.2 - Question
+
+#### Slide 6.3 - Data
+
+#### Slide 6.4 - Simulation
+
+#### Slide 6.5 - Testing
+
+#### Slide 6.6 - Summary
+
+### Slide 7.1 Mapping Metaphase
+
+### Slide 8.1 Heuristic
