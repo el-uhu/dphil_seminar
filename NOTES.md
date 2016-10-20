@@ -222,5 +222,18 @@ Again, I would claim the answer to these questions lies in a feedback system. No
 #### Slide 6.6 - Summary
 
 ### Slide 7.1 Mapping Metaphase
+So error correction and checkpoint effector cooperate through mutually activating each other. Note that this provides a potential mechanism for coordinating the inactivation of the whole checkpoint with the onset of anaphase.
 
-### Slide 8.1 Heuristic
+Indeed experiments by Vazquez-Novelle et al. and Rattani et al have shown the implications of compromising this feedback mechanism: If Cdk1 activity is kept high by rendering it non-degradable by the proteasome, securin alone is degraded by APC/C:Cdc20. As cohesin is cleaved the error correction does indeed become reactivated and cells fails to divide properly.
+
+Moreover, Vazquez-Novelle et al. have shown that irreversible inactivation may be a property of the checkpoint effector module itself: If cells are treated with the proteasome inhibitor MG132 they become arrested in metaphase, characterised by a satisfied checkpoint, which has stopped to produced MCC, but Cdk1-activity is still high. If the microtubule depolymerising drug nocodazole is added to cells in this state, Vazquez-Novelle et al observed a relocalisation of the MCC-component Mad2 to kinetochores, indicating that MCC becomes reassembled.
+However, when they added the Cdk-inhibitor Flavopiridol alongside nocodazole, no reaccumulation was observed.
+
+So, can we conclude that Cdk1 activity is required to  sustain activity of the checkpoint?
+Well, not quite: Localisation of Mad2 to kinetochores is a necessary but not a sufficient condition for the production of a functional APC/C inhibitor.
+
+To address this question more directly, my collaborators and me devised an assay based on live-cell imaging.
+
+This diagram shows our hypothesis in simple terms: The Inactivation of the checkpoint is composed of two steps - disengagement, when all kinetochores have become attached and irreversible inactivation when a characteristic Cdk1-activity threshold is crossed as cyclin B gets degraded.
+
+To directly probe for a Cdk1-activity threshold, my collaborators arrested cells in nocodazole and measured levels of cyclin B following the addition of a Cdk1-specific inhibitor...

@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="350mm"
-   height="250mm"
-   viewBox="0 0 1240.1575 885.82677"
+   height="200mm"
+   viewBox="0 0 1240.1575 708.66142"
    id="svg10551"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -51,8 +51,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="528.22894"
-     inkscape:cy="405.04675"
+     inkscape:cx="869.55152"
+     inkscape:cy="286.68704"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -64,7 +64,7 @@
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
-       position="34.345187,412.14223"
+       position="35.714287,270.35714"
        orientation="1,0"
        id="guide12618" />
     <sodipodi:guide
@@ -72,11 +72,11 @@
        orientation="1,0"
        id="guide12620" />
     <sodipodi:guide
-       position="-434.3656,717.2083"
+       position="961.4286,684.2857"
        orientation="0,1"
        id="guide12622" />
     <sodipodi:guide
-       position="226.27418,143.44166"
+       position="760.71431,145"
        orientation="0,1"
        id="guide12624" />
   </sodipodi:namedview>
@@ -96,7 +96,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-166.53543)">
+     transform="translate(0,-343.70078)">
     <path
        d="m 35.520805,515.12952 610.951265,0 0,392.44479 -610.951265,0 0,-392.44479 z"
        style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1883,18 +1883,6 @@
          id="tspan15080">100</tspan>
     </text>
     <text
-       y="334.53763"
-       x="533.57812"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.21281433px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text17836">
-      <tspan
-         sodipodi:role="line"
-         id="tspan17842"
-         x="533.57812"
-         y="334.53763"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold'">Core Model</tspan>
-    </text>
-    <text
        style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.35777569px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#440091;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text17860"
        x="824.4057"
@@ -2377,7 +2365,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold'">Individual Chromatid</tspan>
       <tspan
          x="-586.64038"
-         y="702.59332"
+         y="702.53217"
          sodipodi:role="line"
          id="tspan14408"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold'" />
