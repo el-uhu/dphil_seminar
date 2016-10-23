@@ -238,9 +238,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="444.02339"
-     inkscape:cy="248.52893"
+     inkscape:zoom="1.979899"
+     inkscape:cx="414.1805"
+     inkscape:cy="106.12025"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -261,7 +261,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -449,85 +449,10 @@
          id="path7054-6-0"
          style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#800080;fill-opacity:1;fill-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     </g>
-    <g
-       id="g4221-7-1"
-       transform="matrix(-0.28396768,0.39313476,-0.39313476,-0.28396768,193.81583,133.23451)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path348-2-0-2-8-9"
-         style="fill:#9c1661;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 743.36828,620.97898 c -6.42097,-14.08085 -12.84986,-28.16763 -19.27872,-42.25441 -3.67002,-8.01683 -13.23335,8.66633 -10.76631,14.07153 6.42889,14.08679 12.85775,28.17357 19.27875,42.25442 3.66405,8.02472 13.23332,-8.66634 10.76628,-14.07154" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path352-7-8-1-2-4"
-         style="fill:#9c1661;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 724.42703,580.53448 c -1.9604,-15.39032 -3.92674,-30.77269 -5.90097,-46.16104 -0.49357,-3.83472 -3.12757,-5.33285 -6.22169,-2.50112 -3.201,2.92454 -5.78445,8.56478 -5.2184,12.96115 1.9604,15.3903 3.93463,30.77864 5.90097,46.16105 0.49357,3.83471 3.12757,5.33285 6.21573,2.50901 3.20102,-2.92454 5.78447,-8.56478 5.22436,-12.96905" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path356-1-2-6-3-6"
-         style="fill:#9c1661;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 710.51324,598.55669 c -0.63102,14.64163 -1.26201,29.28328 -1.89897,43.9328 -0.13061,3.21704 1.2497,8.02768 5.49359,6.03576 4.0639,-1.917 6.65524,-7.55127 6.84045,-11.8281 0.6231,-14.64756 1.26006,-29.29711 1.89898,-43.93282 0.1306,-3.21702 -1.24377,-8.03557 -5.49362,-6.03576 -4.06387,1.917 -6.65524,7.5513 -6.84043,11.82812" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path360-5-7-4-9-0"
-         style="fill:#9c1661;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 724.91132,579.06291 c -7.50273,-10.7503 -15.01933,-21.49864 -22.528,-32.24104 -6.19804,-8.86625 -17.00984,6.82865 -12.4067,13.40709 7.50273,10.75032 15.01141,21.49273 22.528,32.24107 6.19802,8.86623 17.00984,-6.82868 12.4067,-13.40712" />
-      <ellipse
-         ry="7.07833"
-         rx="6.657001"
-         cy="583.44708"
-         cx="727.34485"
-         id="path7054-3-2"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#800080;fill-opacity:1;fill-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <ellipse
-         ry="7.07833"
-         rx="6.657001"
-         cy="589.22369"
-         cx="711.50574"
-         id="path7054-6-0-0"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#800080;fill-opacity:1;fill-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-    </g>
-    <g
-       id="g5165-0-9"
-       transform="matrix(1.3940632,0.6405136,-0.6405136,1.3940632,-207.78346,-59.378773)"
-       inkscape:transform-center-x="9.2850121"
-       inkscape:transform-center-y="-2.2257118"
-       style="fill:#000080;stroke:#000080">
-      <ellipse
-         ry="1.0405289"
-         rx="1.9076363"
-         cy="201.94002"
-         cx="63.370296"
-         id="path5130-3-3"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.91420007;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:#000080;stroke-width:0.68671399;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <ellipse
-         ry="1.0405289"
-         rx="1.9076363"
-         cy="201.94002"
-         cx="67.383362"
-         id="path5130-2-5-2"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.91420007;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:#000080;stroke-width:0.68671399;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <circle
-         r="1.2626907"
-         cy="196.763"
-         cx="64.776031"
-         id="path5159-0-2"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.91420007;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:#000080;stroke-width:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5163-1-3"
-         d="m 65.757614,202.04653 c 0,0 -5,-5 0,-5"
-         style="fill:none;fill-rule:evenodd;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.87875366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker13668)"
        d="m -279.2713,298.41953 -10.75566,8.7959"
        id="path5368"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.87875366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker13958)"
-       d="m -242.09699,272.116 -13.1813,-4.39377"
-       id="path5370"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.87875366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker14112)"
@@ -560,28 +485,6 @@
          y="291.80954"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.98442078px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;letter-spacing:1.31813049px;text-anchor:middle"
          id="tspan4332">ATTACHMENT</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.59065247px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:-9.66629028px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-244.68304"
-       y="207.77873"
-       id="text5340-3-8"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="-244.02397"
-         y="207.77873"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.98442078px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;letter-spacing:1.31813049px;text-anchor:middle"
-         id="tspan7702">LATERAL</tspan><tspan
-         sodipodi:role="line"
-         x="-244.02399"
-         y="221.50926"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.98442078px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;letter-spacing:1.31813049px;text-anchor:middle"
-         id="tspan4336">ATTACHMENT</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.87875366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -272.85337,223.78456 17.57508,30.75638 4.39376,0"
-       id="path7704"
-       inkscape:connector-curvature="0" />
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#d40000;stroke-width:0.87875366;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="m -311.70098,228.649 -3.19543,3.0157 -3.01571,-3.19542 -3.19541,3.01572 3.0157,3.19541 -3.19541,3.01572 3.01571,3.19541 3.19542,-3.01571 3.01571,3.19542 3.19542,-3.01571 -3.01572,-3.19542 3.19542,-3.01571 -3.0157,-3.19541 z"
@@ -810,11 +713,6 @@
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:#008000;stroke-width:0.87875366;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="m -249.76207,295.67229 -5.915,6.49872 -3.24937,-2.95749 -2.95751,3.24937 3.24937,2.95749 3.24937,2.95751 2.95751,-3.24937 5.915,-6.49874 -3.24937,-2.95749 z"
        id="rect9395"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ff6600;fill-rule:evenodd;stroke:#ff6600;stroke-width:0.87875366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -232.98375,265.45845 0,4.39377 c 0,0 4.39377,-4.39377 8.78754,0 4.39376,4.39377 8.78753,0 8.78753,0 l 0,-4.39377 c 0,0 -4.39377,4.39377 -8.78753,0 -4.39377,-4.39376 -8.78754,0 -8.78754,0"
-       id="path9402"
        inkscape:connector-curvature="0" />
     <text
        sodipodi:linespacing="125%"
@@ -6332,14 +6230,36 @@
     <text
        sodipodi:linespacing="125%"
        id="text4246-6-4-4-8-1"
-       y="540.59161"
-       x="-40.824078"
+       y="497.15506"
+       x="-54.461136"
        style="font-style:normal;font-weight:normal;font-size:5.7968812px;line-height:125%;font-family:sans-serif;letter-spacing:-8.50209236px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan25276-37"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Medium';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
-         y="540.59161"
-         x="-40.051159"
-         sodipodi:role="line">CPC</tspan></text>
+         y="497.15506"
+         x="-53.688217"
+         sodipodi:role="line"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold'"
+   id="tspan5204">CPC</tspan> =</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
+         y="512.78009"
+         x="-53.688217"
+         sodipodi:role="line"
+         id="tspan5196">Aurora B</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Medium';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
+         y="528.40509"
+         x="-53.688217"
+         sodipodi:role="line"
+         id="tspan5198">INCENP,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Medium';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
+         y="544.03009"
+         x="-53.688217"
+         sodipodi:role="line"
+         id="tspan5200">Borealin,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Medium';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
+         y="559.65509"
+         x="-53.688217"
+         sodipodi:role="line"
+         id="tspan5202">Survivin</tspan></text>
   </g>
 </svg>

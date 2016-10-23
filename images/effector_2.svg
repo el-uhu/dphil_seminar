@@ -178,9 +178,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
-     inkscape:cx="382.77354"
-     inkscape:cy="152.86418"
+     inkscape:zoom="1.4"
+     inkscape:cx="286.55055"
+     inkscape:cy="186.28707"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1128,5 +1128,39 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.11922932px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end;fill:#808080"
            id="tspan4731">CHECKPOINT</tspan></text>
     </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text10617-4-1-4-47-7-0-9-6-36"
+       y="495.83176"
+       x="406.34125"
+       style="font-style:normal;font-weight:normal;font-size:6.65214539px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:-9.75647926px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:Raleway;text-align:start;letter-spacing:1.10869086px;text-anchor:start"
+         y="495.83176"
+         x="406.34125"
+         sodipodi:role="line"
+         id="tspan21057-8-2-7">cyclin B:CDK1</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.73905373px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:start;letter-spacing:1.10869086px;text-anchor:start"
+         y="511.45679"
+         x="406.34125"
+         sodipodi:role="line"
+         id="tspan17780-4-6-2-50-4-9-5" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text10617-4-1-4-47-7-0-9-6-3"
+       y="495.95676"
+       x="637.89545"
+       style="font-style:normal;font-weight:normal;font-size:6.65214539px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:-9.75647926px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:Raleway;text-align:start;letter-spacing:1.10869086px;text-anchor:start"
+         y="495.95676"
+         x="637.89545"
+         sodipodi:role="line"
+         id="tspan21057-8-2-6">securin: separase</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.73905373px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:start;letter-spacing:1.10869086px;text-anchor:start"
+         y="511.58179"
+         x="637.89545"
+         sodipodi:role="line"
+         id="tspan17780-4-6-2-50-4-9-7" /></text>
   </g>
 </svg>
