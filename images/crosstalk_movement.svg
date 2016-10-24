@@ -432,22 +432,6 @@
        orient="auto"
        refY="0"
        refX="0"
-       id="marker8064"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path8066"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
        id="marker6662"
        style="overflow:visible"
        inkscape:isstock="true"
@@ -735,11 +719,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="1189.4505"
-     inkscape:cy="463.24953"
+     inkscape:zoom="0.99999999"
+     inkscape:cx="947.06726"
+     inkscape:cy="199.2404"
      inkscape:document-units="px"
-     inkscape:current-layer="g10068-3"
+     inkscape:current-layer="g4354"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -806,7 +790,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1022,12 +1006,6 @@
           </g>
         </g>
       </g>
-      <path
-         sodipodi:nodetypes="ccsc"
-         inkscape:connector-curvature="0"
-         id="path8046"
-         d="m 269.67562,612.7337 175,0 c 0,0 9.92857,2.6e-4 10,10 l 0.35714,50.00001"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6452)" />
       <path
          inkscape:connector-curvature="0"
          id="path8048"
@@ -1292,7 +1270,7 @@
         </text>
         <g
            id="g7764"
-           transform="translate(-57.304758,-32.85165)">
+           transform="translate(-143.87146,-35.921391)">
           <g
              id="g3654-3"
              transform="matrix(0.28773841,1.8388212,-1.8388212,0.28773841,2632.1602,-304.98311)">
@@ -1450,7 +1428,7 @@
         </g>
         <g
            id="g7735"
-           transform="translate(-36.466664,-33.093428)">
+           transform="translate(47.951219,-34.628299)">
           <g
              id="g3654"
              transform="matrix(0.28773841,1.8388212,-1.8388212,0.28773841,2525.8519,-304.89762)">
@@ -1601,7 +1579,7 @@
         </g>
         <g
            id="g7795"
-           transform="translate(-74.669836,-32.993648)">
+           transform="translate(-74.362862,-34.835493)">
           <g
              id="g3654-6"
              transform="matrix(0.28773841,1.8388212,-1.8388212,0.28773841,2732.5623,-305.28642)">
@@ -2298,12 +2276,6 @@
              style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:10.54956818px;line-height:125%;font-family:Raleway;-inkscape-font-specification:'Raleway, Heavy';text-align:start;letter-spacing:1.54727006px;writing-mode:lr-tb;text-anchor:start;fill:#e12900;fill-opacity:1">HisH2Av-mRFP1</tspan></text>
       </g>
       <path
-         sodipodi:nodetypes="ccscsc"
-         inkscape:connector-curvature="0"
-         id="path10649"
-         d="m 199.67562,612.7337 -10,0 c 0,0 -10,0 -10,-10 l 0,-203 c 0,0 0,-10 10,-10 l 30,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker8064)" />
-      <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
          id="path5082"
@@ -2320,7 +2292,7 @@
          inkscape:connector-curvature="0"
          id="path5082-5"
          d="m 431.60779,298.86608 -20.65481,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1" />
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker10013)" />
       <path
          inkscape:connector-curvature="0"
          id="path9633"

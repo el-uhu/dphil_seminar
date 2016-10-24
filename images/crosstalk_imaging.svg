@@ -431,22 +431,6 @@
        orient="auto"
        refY="0"
        refX="0"
-       id="marker8064"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path8066"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
        id="marker6662"
        style="overflow:visible"
        inkscape:isstock="true"
@@ -633,10 +617,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="786.03415"
+     inkscape:cx="497.03415"
      inkscape:cy="532.37584"
      inkscape:document-units="px"
-     inkscape:current-layer="g10068-3"
+     inkscape:current-layer="g4354"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -915,12 +899,6 @@
           </g>
         </g>
       </g>
-      <path
-         sodipodi:nodetypes="ccsc"
-         inkscape:connector-curvature="0"
-         id="path8046"
-         d="m 269.67562,612.7337 175,0 c 0,0 9.92857,2.6e-4 10,10 l 0.35714,50.00001"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6452)" />
       <path
          inkscape:connector-curvature="0"
          id="path8048"
@@ -2475,12 +2453,6 @@
         </g>
       </g>
       <path
-         sodipodi:nodetypes="ccscsc"
-         inkscape:connector-curvature="0"
-         id="path10649"
-         d="m 199.67562,612.7337 -10,0 c 0,0 -10,0 -10,-10 l 0,-203 c 0,0 0,-10 10,-10 l 30,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker8064)" />
-      <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
          id="path5082"
@@ -2497,7 +2469,7 @@
          inkscape:connector-curvature="0"
          id="path5082-5"
          d="m 431.60779,298.86608 -20.65481,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1" />
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker10013)" />
       <path
          inkscape:connector-curvature="0"
          id="path9633"

@@ -239,8 +239,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="414.1805"
-     inkscape:cy="106.12025"
+     inkscape:cx="340.43936"
+     inkscape:cy="227.33855"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -6230,36 +6230,18 @@
     <text
        sodipodi:linespacing="125%"
        id="text4246-6-4-4-8-1"
-       y="497.15506"
-       x="-54.461136"
+       y="551.70331"
+       x="-45.369762"
        style="font-style:normal;font-weight:normal;font-size:5.7968812px;line-height:125%;font-family:sans-serif;letter-spacing:-8.50209236px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         id="tspan25276-37"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Medium';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
-         y="497.15506"
-         x="-53.688217"
-         sodipodi:role="line"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold'"
-   id="tspan5204">CPC</tspan> =</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
-         y="512.78009"
-         x="-53.688217"
+         y="551.70331"
+         x="-44.596844"
          sodipodi:role="line"
-         id="tspan5196">Aurora B</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Medium';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
-         y="528.40509"
-         x="-53.688217"
-         sodipodi:role="line"
-         id="tspan5198">INCENP,</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Medium';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
-         y="544.03009"
-         x="-53.688217"
-         sodipodi:role="line"
-         id="tspan5200">Borealin,</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Medium';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"
-         y="559.65509"
-         x="-53.688217"
-         sodipodi:role="line"
-         id="tspan5202">Survivin</tspan></text>
+         id="tspan5202"><tspan
+   id="tspan5188"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;letter-spacing:1.54583502px;text-anchor:middle">CPC<tspan
+   id="tspan5181"
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:Raleway;-inkscape-font-specification:'Raleway Medium';text-align:center;letter-spacing:1.54583502px;text-anchor:middle"> = </tspan>Aurora B</tspan>+INCENP+Borealin+Survivin</tspan></text>
   </g>
 </svg>
