@@ -40,213 +40,180 @@
 			<div class="slides">
 
 				<!-- STAGEING -->
-				<section>
-					<section data-background-transition="zoom">
-						<h1 style="color: #2c4478"> Models, Maps, and the Mitotic Checkpoint</h1>
-						<p>
-							<span style="color: #2c4478;font-family:Megrim" >
-								02.11.2016,
-							</span>
-							<a href="https://github.com/el-uhu" style="color: #2c4478;font-family:Megrim" >Lukas Hutter</a>
-						</p>
-						<aside data-markdown class="notes">
-						</aside>
-					</section>
-
-					<section data-background-color="#fafafa" data-background="images/exit_mod.jpg" data-background-size="contain">
-						<h2 style="font-family: Trocchi; color: #000">
-							"All cells come from cells"
-						</h2>
-						<!-- <small class="" style="font-family: Trocchi;color:#444">
-							"Omnis cellula e cellula" - <it>R. Vichrow </it><br />
-							<br />
-							Image by Kuan-Chung Su and Mark Petronczki, <br /> London Research Institute, Cancer Research UK
-						</small> -->
-						<aside data-markdown class="notes">
-							*All cells come from cells*
-
-							It is remarkable how much bearing this statement has:
-
-							As adults, our body consists of several trillion cells, yet we start out from a single fertilised egg.
-
-							For you to sit here today, innumerable cell divisions have to be executed virtually without errors.
-
-							**PAUSE**
-						</aside>
-					</section>
-
-					<section data-background="images/cell_cycle_ill.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							Let me elaborate a bit here:
-
-							**Cell cycle** is the process whereby, cells **grow, replicate their genetic material and divide**.
-
-							We divide it into four stages: the **gap phases** G1 and G2 - when the cell primarily grow; **S-phase** - when the DNA is replicated and mitosis - when the nucleus is divided.
-
-							**In my work I focus on the regulation of mitosis, where it is absolutely crucial that things happen in order, as shall become apparent soon**:
-
-							**Prophase**: chromatin condenses, spindle begins to organise around centrosomes, **open mitosis** - NEBD
-
-							**Prometaphase** microtubules emanating from spindle poles begin to invade the center of the cell; bind to alrge protein complexes called kinetochores that assemble at in the centromeric region of each chromatid.
-
-							**Once corresponding sisters have become attachced to opposite poles of the spindle**, the chromatids are said to have become bi-oriented; the hallmark of **Metaphase**.
-
-							In **Anaphase**, the cohesin is cleaved and sister chromatids are separated towards opposite poles of the spindle, by pole-ward pulling forces within the spindle, as well as pushing forces from bundles of microtubules that nucleate between the separating sisters.
-
-							5. This so-called central spindle also serves the purpose of determining the position of the equator of the cell in **Telophase**, when the cell membrane begins to gradually invade the equatorial plane, while the cell elongates.
-							Moreover, **Telophase** can be understood as prophase in reverse: The nuclear envelope is reassembled on the chromatin, which in turn becomes decondensed.
-
-							**Crucial problem** - identity of chromatids and their belongingness topologically encoded. Crucial that they are held together until they become attached to opposite poles of the spindle, as otherwise the information of where they belong is lost. - And correct division is likely to fail.
-
-							**How do cells achieve this impressive feat?**
-						</aside>
-					</section>
+				<section data-background-transition="zoom">
+					<h1 style="color: #2c4478"> Models, Maps, and the Mitotic Checkpoint</h1>
+					<p>
+						<span style="color: #2c4478;font-family:Megrim" >
+							02.11.2016,
+						</span>
+						<a href="https://github.com/el-uhu" style="color: #2c4478;font-family:Megrim" >Lukas Hutter</a>
+					</p>
+					<aside data-markdown class="notes">
+						Hi, my **name** is Lukas Hutter, and today I'd like to talk about **some of the work** I conducted in the course of my DPhil in Bela Novak's group.
+					</aside>
 				</section>
 
-				<!-- MOLECULAR BASIS -->
-				<section>
-					<!-- <section>
-						<h1>The Mitotic Checkpoint</h1>
-						<aside data-markdown class="notes">
-							Cells have evolved an **intricate feedback control system**, which I shall call the Mitotic Checkpoint. It delays progression into anaphase until all pairs of sisters have become bioriented.
+				<section data-background-color="#fafafa" data-background="images/exit_mod.jpg" data-background-size="contain">
+					<h2 style="font-family: Raleway; color: #000; font-weight:700">
+						All cells come from cells
+					</h2>
+					<aside data-markdown class="notes">
+						*All cells come from cells*
 
-							This checkpoint consists of **two sub-modules**: a surveillance and error correction system, and a checkpoint enforcement mechanism.
+						It is remarkable **how much bearing this statement** has:
 
-							The error corretion module **monitors the attachment state of each chromatid pair** and destabilises incorrect attachments. The checkpoint enforcement mechanism produces a soluble inhibitor that prevents premature initiation of anaphase.
+						As adults, our body consists of several **trillion cells**, yet we start out from a **single fertilised egg**.
 
-							Let me provide a brief overview of our current understanding...
-						</aside>
-					</section> -->
+						**For you to sit here today**, innumerable cell divisions have to be executed virtually without errors.
 
-					<!-- EC -->
-					<section data-background="images/error-correction.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							To destabilise incorrect attachment configuration, such as
-							- monotelic
-							- syntelic
-							- merotelic
+						**PAUSE**
+					</aside>
+				</section>
 
-							**Error Correction must integrate the attachment state of the kinetochore on each of the two sisters**. This is achieved through a **tension-sensitive mechanism**:
+				<section data-background="images/cell_cycle_ill.svg" data-background-size="contain">
+					<aside data-markdown class="notes">
+						For **cell division to succeed**, cells generally have to grow, replicate their DNA, and finally divide their DNA and cellular constituents between the nascent daughter cells.
 
-							**Aurora B kinase**, which is part of the chromosomal passenger complex, phosphorylates the binding interface between kinetochores and microtubules.
-							It thus abolishes the electrostatic interaction between kinetochore and microtubule and destabilises the attachment.
+						**The final stage** in this process is called **mitosis**, when cells divide their nuclei and genetic material.
 
-							**Only correct, amphitelic attachment configuration will experience equal drag** from the two poles of the mitotic spindle. This results in a sufficiently strong **deformation of the kinetochore**, that the phosphorylation targets are **displaced out of reach of the sharp aurora b activity gradient**.
+						Higher eukaryotes undergo **open mitosis**, characterised by a **breakdown of the nuclear envelope**, **exposing the condesed chromatin to the mitotic spindle**.
 
-							This provides a mechanism that biases the attachment process towards the formation of correct attachment.
-						</aside>
-					</section>
+						**Microtubules emanating** from the poles of the mitotic spindle invade the centre of the cell and **bind to kinetochores** - large protein compelxes that assemble in the contromeric region of each chromatid.
+						**Once correspodning sisters attach to opposite poles** of the mitotic spindle, they are said to have become **bi-oriented**. This is the hallmark of metaphase, and marks a turning point: When all pairs of sister chromatids have become bi-oriented, they are ready to become segregated towards opposing poles of the mitotic spindle in anaphase.
+
+						I would like to **stress the crucial problem** in this context:
+
+						**The identity of chromatids and their "belongingness" is topologically encoded.**
+						The **ring-shaped cohesin complex** holds sister chromatids together **from the the point of DNA replication to the onset of anaphase**, when they are safely attached to opposite poles of the mitotic spindle and **cohesin is cleaved** by the specific protease called separase.
+						**It is absolutely pivotal** that they become correctly attached before the cohesin is cleaved, as **premature cleavage** of cohesin would lead to **loss of the information of where they belong**. - And correct division is likely to fail.
+
+						**How do cells achieve this impressive feat?**
+
+						They have evolved a **control mechanism** called the **mitotic checkpoint** that **combines** the activity of a **mechanism correcting faulty attachments** with a **mechanism that delays anaphase*.
+					</aside>
+				</section>
+
+				<section data-background="images/error-correction.svg" data-background-size="contain">
+					<aside data-markdown class="notes">
+
+						The error correction mechanism makes sure that kinetochores are only connected to one of the two poles, and ensures that corresponding sisters are connected to opposite poles.
+
+						To achieve these so-called amphitelic attachments **Error Correction must integrate the attachment state of the kinetochore on each of the two sisters**. This is achieved through a **tension-sensitive mechanism**:
+
+						**Aurora B kinase**, which is part of the **chromosomal passenger complex**, phosphorylates the binding interface between kinetochores and microtubules.
+						It thus **abolishes the electrostatic interaction** between kinetochore and microtubule and destabilises the attachment.
+
+						**Only correct, amphitelic attachment configuration will experience equal drag** from the two poles of the mitotic spindle. This results in a sufficiently strong **deformation of the kinetochore**, that the phosphorylation targets are **displaced out of reach of the sharp aurora b activity gradient**.
+
+						This provides a mechanism that biases the attachment process towards the formation of correct attachment.
+					</aside>
+				</section>
+
+				<!-- Effector -->
+				<section data-background="images/effector_2.svg" data-background-size="contain">
+					<aside data-markdown class="notes">
+						**To be effective at delaying anaphase** until error correction the checkpoint requires a **mechanism to signal incomplete biorientation** to the molecular machinery that drives anaphase.
+
+						**Anaphase is initiated** by the **activation of** the E3 ubiquitin ligase anaphase promoting complex/cyclosome **(APC/C) by its co-activator Cdc20**. This confers it with **susbtrate specificity** towards it's early anaphase substrates **cyclin B and securin** and allows it to **target them for proteasomal degradation**.
+						**Securin** acts as chaperone and stoichiometric inhibitor of separase, which promotes the segragation of sister chromatids as specific protease to cohesin.
+						**Cyclin B** is the crucial activator of the mitotic cyclin-dependent kinase, CDK1, whose activity high in mitosis and crucial in maintaining the mitotic state.
+					</aside>
+				</section>
 
 					<!-- Effector -->
-					<section data-background="images/effector_1.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							**To be effective at delaying anaphase** until error correction the checkpoint requires a **mechanism to signal incomplete biorientation** to the molecular machinery that drives anaphase.
-						</aside>
-					</section>
+				<section data-background="images/effector.svg" data-background-size="contain">
+					<aside data-markdown class="notes">
+						**To delay the singular event of APC/C:Cdc20 activation** that drives the cell into anaphase in order to give the error correction time to promote amphitelic attachments, cells produce a **soluble inhibitor** called mitotic checkpoint complex (MCC).
 
-					<!-- Effector -->
-					<section data-background="images/effector_2.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							**Anaphase is initiated** by the **activation of** the E3 ubiquitin ligase anaphase promoting complex/cyclosome **(APC/C) by its co-activator Cdc20**. This confers it with **susbtrate specificity** towards it's early anaphase substrates **cyclin B and securin** and allows it to **target them for proteasomal degradation**.
-							**Securin** acts as chaperone and stoichiometric inhibitor of separase, which promotes the segragation of sister chromatids as specific protease to cohesin.
-							**Cyclin B** is the crucial activator of the mitotic cyclin-dependent kinase, CDK1, whose activity high in mitosis and crucial in maintaining the mitotic state.
-						</aside>
-					</section>
+						If **unattached kinetochores** are present, the checkpoint is active.
+						They **serve as catalytic platforms** in the assembly of MCC, which - once assembled - **binds very tightly to APC/C**, and acts as a stoichiometric inhibitor.
 
-					<!-- Effector -->
-					<section data-background="images/effector.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							**To delay the singular event of APC/C:Cdc20 activation** that drives the cell into anaphase in order to give the error correction time to promote amphitelic attachments, cells produce a **soluble inhibitor** called mitotic checkpoint complex (MCC).
+						In **prometaphase** the **rate of production of MCC** by unattached kinetochores is sufficiently high that a single unattached kinetochore is sufficient to delay the onset of anaphase.
 
-							If **unattached kinetochores** are present, the checkpoint is active.
-							They **serve as catalytic platforms** in the assembly of MCC, which - once assembled - **binds very tightly to APC/C**, and acts as a stoichiometric inhibitor.
+						Once all chromosomes have become attached, the checkpoint is **satisfied, the  assembly of MCC from its components stops**, and a set of **processes directing the disassembly of MCC remove the APC/C-inhibitor** in metaphase, and lead to timely activation of APC/C.
+						Noteably, the checkpoint retains the **capacity to become re-engaged** when it is satisfied. Only after the onset of anaphase does it become irreversibly inactivated.
 
-							In **prometaphase** the **rate of production of MCC** by unattached kinetochores is sufficiently high that a single unattached kinetochore is sufficient to delay the onset of anaphase.
+						**The literature on this topic is rich in detail and vast in scope**, my account of the molecular detail was merely superficial. Yet our understanding of **how these parts come together to elicit control** is far complete.
 
-							Once all chromosomes have become attached, the checkpoint is **satisfied, the  assembly of MCC from its components stops**, and a set of **processes directing the disassembly of MCC remove the APC/C-inhibitor** in metaphase, and lead to timely activation of APC/C.
-							Noteably, the checkpoint retains the **capacity to become re-engaged** when it is satisfied. Only after the onset of anaphase does it become irreversibly inactivated.
-
-							**The literature on this topic is rich in detail and vast in scope**, my account of the molecular detail was merely superficial. Yet our understanding of how these parts come together to elicit control is far complete.
-
-							In the course of my DPhil, I focussed on several questions pertaining to the properties of the regulatory system underlying the checkpoint.
-						</aside>
-					</section>
+						This is where my work as a modeller comes in: The combination of data-driven modelling and model-driven experiments is uniquely positioned address problems at systems scale...
+					</aside>
 				</section>
 
 				<!-- CROSSTALK -->
-				<section  data-transition="fade">
+				<section data-background-image="images/crosstalk.svg" data-background-size="contain">
+					<aside data-markdown class="notes">
+						This diagram depicts a simple network that describes how components of the checkpoint interact:
+						The top panel shows the error correction module, where aurora B destabilises attachments in a tension dependent manner.
+						The bottom half depicts the checkpoint effector module, where unattached kinetochores produce MCC that inhibits APC and prevents it from degrading cyclin B.
 
-					<section data-background-image="images/crosstalk.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							**The motivation** for this project was the following question: Cohesin is an essential comonent of checkpoint signalling, as it is required for the formation of amphitelic attachments, and the coupling of tension between two sisters.
+						Note that cohesin plays an important role in error correction, as it is required for the formation of amphitelic attachments, and the coupling of tension between two sisters.
 
-							**What can we learn about the checkpoint, if we challenge cells with precociously cleaved cohesin?**
+						As such it is well-posed as an entry point for perturbing the regulatory system and studying the interactions of its components over time.
 
-							**To address this question**, my collaborators could draw on a **neat experimental system** in **Drosophila neuroblasts**, that allowed the replacement of endogenous cohesin, with a mutant cohesin that was cleavable by a tev-proteas, which could be expressed from a temperature sensitive promotor prior to mitosis.
-						</aside>
-					</section>
+						**What can we learn about the checkpoint, if we challenge cells with precociously cleaved cohesin?**
 
-					<section data-background-image="images/crosstalk_timing.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							They first looked at timing of mitosis:
-							**Control cells** take about 10-15 minutes to complete mitosis, whereas cells treated with the microtubule poison **colchicine**, that depolymerises microtubules take more than five hours.
+						**To address this question**, my collaborators -Raquel Oliveira and Mihailo Mirkovic at IGC in Lisbon- could draw on a **neat experimental system** in **Drosophila neuroblasts**, that allowed the replacement of endogenous cohesin, with a mutant cohesin that was cleavable by a tev-proteas, which could be expressed from a temperature sensitive promotor prior to mitosis.
+					</aside>
+				</section>
 
-							If premature cohesin cleavage activated the checkpoint fully, one would expect to oserve a  similar duration, however strikingly, they observed that in this case cells exit mitosis within 40-60 min.
+				<section data-background-image="images/crosstalk_timing.svg" data-background-size="contain">
+					<aside data-markdown class="notes">
+						### They first looked at timing of mitosis:
+						**Control cells** take about 10-15 minutes to complete mitosis, whereas cells treated with the microtubule poison **colchicine**, that depolymerises microtubules take more than five hours.
 
-							Interestingly, when additionally treated with colchicine, a similar duration of mitosis to pure colchicine treatment was oserved.
-						</aside>
-					</section>
+						If premature cohesin cleavage activated the checkpoint fully, one would expect to oserve a  similar duration, however strikingly, they observed that in this case cells exit mitosis within 40-60 min.
 
-					<section data-background-image="images/crosstalk_imaging.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							To investigate the role of checkpoint signalling upon premature cohesin cleavage, they next performed live-cell imaging of the APC/C-substrate cyclin B.
-							They observed that whereas levels of cyclin B are relatively stable in colchicine treatment, they become degraded with a characteristic biphasic pattern in cells subjected to premature cohesin cleavage, suggesting a partial activity of APC/C due to incomplete inhibition by the checkpoint.
+						Interestingly, when additionally treated with colchicine, a similar duration of mitosis to pure colchicine treatment was oserved.
 
-							They were able to corroborate these findings by looking at the localisation of the MCC-component Mad2 to kinetochores, which is a necessary condition for checkpoint signallingL Upon premature cohesin cleavage, the localisation of Mad2 to kinetochores decreased gradually, indicating a decreasing rate of MCC-assembly.
-						</aside>
-					</section>
+						To complement these data, my collaborators performed an extensive charcterisation of the attachment state of kinetochores in these cells: When sampled  randomly in mitosis, the majority of control cells display end-on attached kinetochores, whereas in colchicine, all kinetochores are unattached.
 
-					<section data-background-image="images/crosstalk_movement.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							One explanation for this behaviour could be the error correction mechanism becomes gradually less effective at destabilising the erroneous attachments in this configuration. To test this hypothesis, they performed kinetochore-tracking by means of live cell imaging, and were able to show that the movement of kinetochores, which results from successive cycles of attachment and detachment became gradually slower over time. Morevoer, they found that stabilised end-on attacchments accumulated over time.
-						</aside>
-					</section>
+						Interestingly, in cells subjected to premature cohesin cleavage, still roughly 70% of all kinetochores display end-on attachments.
 
-					<section data-background-image="images/crosstalk_coremodel.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-						</aside>
-					</section>
+						These data suggest that error correction is not working properly, as the frequency of end-on attachments is significantly higher than expected. This finding was further corroborated by kinetochore tracking experiments that showed that the error correction was losing its capacity to destabilise erroneous attachments in cells subjected to premature cohesin cleavage.
+					</aside>
+				</section>
+
+				<section data-background-image="images/crosstalk_imaging.svg" data-background-size="contain">
+					<aside data-markdown class="notes">
+						Remember that the APC/C activation and onset of anaphase is delayed by the checkpoint effector module.
+						So for the short duration of mitosis to be caused by gradual stabilisation of attachments due to the error correction losing grit, we would expect to observe an effect at the level of checkpoint effector signalling: gradual activation of APC/C and declining rates of MCC-assembly
+
+						Thus my collaborators next performed live-cell imaging of the APC/C-substrate cyclin B.
+						Cyclin B levels are relatively stable in colchicine treatment, and rapindly decline in sigmoidal fashion in cells undergoin unperturbed mitosis.
+						Upon premature cohesin cleavage however, they become degraded with a characteristic biphasic pattern, consistent with a partial activity of APC/C due to incomplete inhibition by the checkpoint.
+
+						These findings were further supported by analysis of the localisation of the MCC-component Mad2 to kinetochores, which is a necessary condition for checkpoint signalling. Upon premature cohesin cleavage, the localisation of Mad2 to kinetochores decreased gradually, indicating a decreasing rate of MCC-assembly.
+					</aside>
+				</section>
+
+				<section data-background-image="images/crosstalk_coremodel.svg" data-background-size="contain">
+					<aside data-markdown class="notes">
+						Can this gradual collapse of mitotic checkpoint signalling upon premature cohesin cleavage be explained by a purely linear model, where checkpoint effector signalling is downstream of error correction and Cdk1 activity is downstream of MCC-production?
+
+						To test this hypothesis, I converted the influence diagram shown on the left into a mathematical model that allowed me to simulate the activities of key components of the regulatory system over time in a manner that accounts for the inherent stochasticity of the system.
+
+						The resulting simulations are shown to the right of the influence diagram. The left column depicts simulations for a control cell, and is shown to demonstrate the model produces consistent results with the experimental data.
+
+						The simulations shown in the right column correspond to cells subjected to premature cohesin cleavage, where the tension-dependence of error correction is compromised: Here the simulations highlight two problems with the linear model: It predicts that error correction stays active and continues to destabilise attachments. Moreover, the model predicts a degradation pattern for cyclin B that appears exponential and converges towards a non-zero steady-state of cyclin B.
+						Thus is very unlike the biphasic degradation pattern observed in the live-cell imaging of cyclin B!
+
+						Studies in higher eukaryotes have show that the activity of cyclin B:Cdk1 is required to sustain the delay elicited by the checkpoint effector module. - Can we capture the experimental data by accounting for the experimental data?
+					</aside>
+				</section>
 
 					<section data-background-image="images/crosstalk_sfbmodel.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
+							Indeed, by introducing feedback within the checkpoint effector module, we are able to capture the biphasic degradation pattern of cyclin B and termination of MCC-production observed in the imaging data.
+
+							However, the model still predicts that error correction should remain active if cohesin is absent.
 						</aside>
 					</section>
 
 					<section data-background-image="images/crosstalk_dfbmodel.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							Naturally, a modeller would answer: let's try to model it. And this is what i did.
+							To explain the gradual inactivation of the error correction mechanism, I introduced a second feedback mechanism, whereby Cdk1 activity influences the activity of Aurora B in the error correction.
 
-							I constructed a model incorporating prior knowledge of the checkpoint mechanism in the form of a consensus picture:
-
-							We assume that MCC is produced at unattached kinetochores and stimulated by the acitivity of mitotic kinases like cyclin B:Cdk1 and Aurora B.
-
-							MCC inhibits APC, by sequestering into a complex, however free APC drives the degradation of cyclin B.
-
-							In terms of error correction, we assume that Aurora B exists in two pools, one localised to centromeres and a free one. Centromeric Aurora B acts in the error correction by stimulating detachment of microtubules from kinetochores in the absence of tension.
-
-							To distinguish between unperturbed mitosis and premature cohesin cleavage, we account for the role of cohesin in promoting Aurora B localisation to kinetochores and in mediating the formation of kinetochore stetch.
-
-							So: cells with prematurely cleaved cohesin are characterised by the reduced capacity to attenuate aurora B activity in error correction, and reduced aurora b activity at centromeres.
-
-							To simulate this system while accounting for the stochasticity inherent in this system, I used Gillespie's Algorithm,
-
-							As you can see, our simualtions nicely recapitulate the experimental data:
-
-							In unperturbed mitosis, the checkpoint is inactiated rapidly upon attachment of all chromatids, Aurora B activity in error correction drops accordingly. APC/C is activated and cyclin B is degraded. THis feeds back into the error correction, as Aurora B is completely inactivated.
-
-							In the case of premature cohesin cleavage, chromatids become attached, however error correcrtion takes time to correct them, during this time, MCC production is compromised and this leadas to partial activation of APC/C, which brings down the activity of Cdk1 by degrading cyclin B. THis feeds back into the error correction by compromising the activity of Aurora B further, and the system enters a downard spiral, leading to eventual exit from mitosis.
-
-							In fact we were able to show, that this mutual feedback between error correction and checkpoint effector module is necessary to explain our observations, but I will not show these data in the interest of time.
+							The resulting simulations show that the introduction of this additional feedback causes the activity of Aurora B to decay over time leading to a stabilisation of attachments, consistent with our experimental data.
 						</aside>
 					</section>
 
@@ -254,94 +221,30 @@
 						<aside data-markdown class="notes">
 							To test whether the model is useful beyond merely explaing what we already know, we decided to generate testable prediction.
 
-							The model puts Cdk1 in a curcial place in the signalling network, as it feeds back the activity of checkpoint effector signalling to error correction.
-							We therefore decided to simulate cases where Cdk1-activity was compromised as a result from partial inhibition of Cdk1-activity.
+							The model puts Cdk1 in a critical place in the signalling network, as it feeds back the activity of checkpoint effector signalling to error correction ad is part of the feedback loop inherent in the checkpoint effector mechanism.
+							We simulated partial inhibition of Cdk1-activity, and looked at the resulting timing of mitosis.
 
-							From this analysis we predict that the duration of mitosis in cells subjected to premature loss of cohesin should display a nonlinear, hypersensitive dependence on Cdk1 inhibition, where reducing the maimum activity of Cdk1 to 75% should result in a 50% reduction of the duration of mitosis.
-						</aside>
-					</section>
+							From this analysis we predict that the duration of mitosis in cells subjected to premature loss of cohesin should display a nonlinear, hypersensitive dependence on Cdk1 inhibition, which was experimentally confirmed by my collaborators.
 
-					<section data-background-image="images/crosstalk_val.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							This prediction was tested by my colloborators, and indeed Tev-treated cells are hypersensitive towards Cdk1-inhibition.
-						</aside>
-					</section>
-
-
-				</section>
-
-				<!-- DISENGAGEMENT & INACTIVATION -->
-				<section>
-					<section data-background-image="images/effector_feedback.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-							So this brings me to the end of this whistle stop tour of my first project. What can we take away from it?
-
-							Our analysis has shown that error correction and checkpoint effector mechanism cooperate by mutually activating each other. However, this coupling incurs a cost, that is lack of a robust response to premature cohesin cleavage.
-
-							Note that an upside of this mechanism is a capacity of the checkcpoint as a whole to turn itself off in anaphase. It would have dramatic consequences if error correction became active again upon cleavage of cohesin in anaphase, as attachments could become destabilised and cell division would likely go wrong. This is called the anaphase problem
-
-						</aside>
-					</section>
-					<!-- <section>
-						<h1>Thresholds?</h1>
-						<p>
-							Collaboration with Daniel Gerlich and Amalie Dick, IMBA, Vienna, Austria
-						</p>
-						<aside data-markdown class="notes">
-							This brings me to the next part in my talk, on a project conducted in collaboration with Daniel Gerlich and Amalie Dick at IMBA in Vienna.
-						</aside>
-					</section>
-
-					<section>
-						<p>
-							<a href="http://dx.doi.org/10.1016/j.cub.2014.01.034">Vazquez-Novelle et. al 2014 Current Biology</a>
-						</p>
-						<img src="images/vazquez-novelle.svg" width="800px"/>
-					</section>
-
-					<section>
-						<h2 style="font-family: Trocchi; color: #000">
-							Does crossing of Cdk1 activity theshold coordinate irreversible inactivation of the checkpoint effector module and anaphase onset?<br />
-						</h2>
-						<aside data-markdown class="notes">
-						</aside>
-					</section>
-
-					<section data-background-image="images/noc_only.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-						</aside>
-					</section>
-
-					<section>
-						<img src="images/ahypothesis.svg" />
-						<aside data-markdown class="notes">
-						</aside>
-					</section> -->
-
-					<section data-background-image="images/ro_highest_dose.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
+							We were thus able to uncover multiple systems-level feedback mechanism that explain the poor response of the checkpoint in Drosophila neuroblast to precociously cleaved cohesin.
 						</aside>
 					</section>
 
 					<section data-background-image="images/ro_medium_dose.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
+							The feedback mechanism within the checkpoint effector module was the focus of a second line of work I conducted with my collaborators Amalie Dick and Daniel Gerlich at Imba, Vienna.
+
+							In our study we focussed on live-cell imaging of human RPE1 cells expressing endogenously tagged cyclin B-Venus and their response to inhibition of CDK1.
+
+							To isolate the checkpoint effector module from error correction, cells were treated with nocodazole, which depolymerises microtubules and arrests them in prometaphase.
+							To probe for the role of a CDK1-mediated feedback mechanism in the checkpoint effector module, my collaborators then added different doses of the CDK1-inhibitor RO-3306 and quantified levels of cyclin B-Venus over time.
+
+							As in the previous study, cyclin B levels remain relatively stable over many hours when treated with microtubule poison alone.
+							However, upon addition of 10uM RO-3306 or higher, cyclin B became rapidly degraded in sigmoidal fashion within 25 minutes.
+
+							The addition of a lower dose, such as 3uM RO-3306, elicited a striking response: cyclin B levels remained stable for about an hour until rapid degradation of cyclin B set in.
 						</aside>
 					</section>
-
-					<section data-background-image="images/model.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-						</aside>
-					</section>
-
-					<!-- <section data-background-image="images/model_inhibition_first.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-						</aside>
-					</section>
-
-					<section data-background-image="images/model_inhibition_second.svg" data-background-size="contain">
-						<aside data-markdown class="notes">
-						</aside>
-					</section> -->
 
 					<section data-background-image="images/model_inhibition_third.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
@@ -367,13 +270,11 @@
 						<aside data-markdown class="notes">
 						</aside>
 					</section>
-				</section>
 
 				<!-- BACKMATTER -->
-				<section>
 					<section>
-						<h3 style="font-family:Amatica SC">Acknowledgements</h3>
-						<p style="font-family:Amatica SC">
+						<h3 style="font-family:Raleway">Acknowledgements</h3>
+						<p style="font-family:Raleway">
 							<b>Bela Novak</b><br />
 							Stefan Heldt<br />
 							Vinod PK<br />
@@ -388,21 +289,10 @@
 							<br />Michael Cundell<br />
 							Ricardo Nunes Bastos<br />
 						</p>
-						<p style="font-family:Amatica SC">
+						<p style="font-family:Raleway">
 							EPSRC Systems Biology DTC, Boehinger Ingelheim Fonds, iv Kärnten
 						</p>
-						<small data-markdown style="font-family:Amatica SC;font-size:10pt">
-							Built using [reveal.js](https://github.com/hakimel/reveal.js) - Fonts:
-							[Bungee Shade](https://djr.com/bungee/), [Monoton](http://sansoxygen.com/),
-							[Megrim](https://fonts.google.com/specimen/Megrim), [Amatica](http://sansoxygen.com/),
-							[Trocchi](http://sansoxygen.com/), [Raleway](https://github.com/impallari/Raleway/)
-						</small>
 					</section>
-
-					<section data-background-color="#e34d33">
-						<h1 style="font-family: Monoton; color: #cfdeff">Questions?</h1>
-					</section>
-				</section>
 
 			</div>
 		</div>

@@ -374,7 +374,7 @@
        inkscape:stockid="Arrow1Mend">
       <path
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         style="fill:#37c4a6;fill-opacity:1;fill-rule:evenodd;stroke:#37c4a6;stroke-width:1pt;stroke-opacity:1"
+         style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#d40000;stroke-width:1pt;stroke-opacity:1"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
          id="path6493"
          inkscape:connector-curvature="0" />
@@ -617,10 +617,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="497.03415"
+     inkscape:cx="352.53415"
      inkscape:cy="532.37584"
      inkscape:document-units="px"
-     inkscape:current-layer="g4354"
+     inkscape:current-layer="g4457-4-8-9-2-7-3"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -821,7 +821,7 @@
            inkscape:connector-curvature="0"
            id="path6483"
            d="m 345.08251,445.49275 386.72827,0"
-           style="fill:none;fill-rule:evenodd;stroke:#37c4a6;stroke-width:6.74057674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:10.11086528, 5.05543264;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6491)" />
+           style="fill:none;fill-rule:evenodd;stroke:#d40000;stroke-width:6.74057674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:10.11086528, 5.05543264000000026;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6491)" />
       </g>
       <g
          id="g22113-3"
