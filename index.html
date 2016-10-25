@@ -219,7 +219,7 @@
 
 					<section data-background-image="images/crosstalk_pred.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							To test whether the model is useful beyond merely explaing what we already know, we decided to generate testable prediction.
+							To test whether the model is useful beyond merely explaing what we already know, I generated a testable prediction.
 
 							The model puts Cdk1 in a critical place in the signalling network, as it feeds back the activity of checkpoint effector signalling to error correction ad is part of the feedback loop inherent in the checkpoint effector mechanism.
 							We simulated partial inhibition of Cdk1-activity, and looked at the resulting timing of mitosis.
@@ -242,32 +242,65 @@
 							As in the previous study, cyclin B levels remain relatively stable over many hours when treated with microtubule poison alone.
 							However, upon addition of 10uM RO-3306 or higher, cyclin B became rapidly degraded in sigmoidal fashion within 25 minutes.
 
-							The addition of a lower dose, such as 3uM RO-3306, elicited a striking response: cyclin B levels remained stable for about an hour until rapid degradation of cyclin B set in.
+							The addition of a lower dose, such as 3uM RO-3306, elicited a striking response: It neither led to an abrupt switch like degradation, not to a biphasic degradation pattern, but cyclin B levels remained stable for about an hour until rapid degradation of cyclin B set in.
 						</aside>
 					</section>
 
 					<section data-background-image="images/model_inhibition_third.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
+							To understand the unexpected response to CDK1 inhibition better, I adapted the model presented in the previous part of the talk, however I simplified it structurally - disregarding the error correction module, which is irrelevant in nocodazole treated cells - and implemented it as system of ordinary differential equations.
+
+							I initially conditioned the model to capture the degradation of cyclin B during normal mitotic progression, and in a nocodazole arrest, and then simulated treatment with a CDK1-inhibitor by reducing the parameter representig the pool of total available CDK1 in the system.
+
+							Using this model, I was able to qualitatively reporduce the cyclin B-timecourses observed upon addition of 10 and 3 uM RO-3306.
+
+							To get a more global perspective at the response of the system to different extents of CDK1-inhibition, I created a bifurcation diagram which shows how the cyclin B steady states change as a function of CDK-inhibition.
+
+							Here, the solid lines depict stable steady states, that form valleys attraction, whereas the dashed line depicts unstable steady states, akin to a mountain ridge.
+							The model exhibits bistability for CDK1 inhibitions of less than 50%, where the upper steady state corresponds to a checkpoint effector-"ON" state, and the lower steady state correspond to a checkpoint effector-"OFF" state.
+
+							As the CDK1-inhibition is increased beyond 50%, the domain, where ON and OFF state co-exist disappears and only the "OFF"-state is stable.
+
+							In this framework, both doses of CDK-inhibitor are best explained by inhibitions of CDK1 beyond 50% residual activity.
+							In both cases, the checkpoint "ON" steady state is not stable, however for the lower dose, CDK1 activity is still high enough that it can delay, yet not block activation of APC/C via MCC.
 						</aside>
 					</section>
 
 					<section data-background-image="images/model_inhibition_slip_noc.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
+							If you have head about the phenomenon of mitotic slippage this may sound very puzzling to you.
+							What you see here is the timecourse of cyclin B in a nocodazole-treated cell, which was recorded over around 30 hours.
+							Even if no Cdk1-inhibition was applied, the cell eventually exits mitosis. - So how can we consider it stable?
+
+							The answer is that what I have shown you before was merely a snapshot, where I froze the system at a particular point in time. To recapitulate mitotic slippage, the model incorporates a mechanism exterior to checkpoint effector mechanism, which slowly pulls down the cyclin B steady state. The mountain range that separates two valleys corresponding to checkpoint effector on and off is really more like a glacier: it is melting away over time!
+
 						</aside>
 					</section>
 
 					<section data-background-image="images/model_inhibition_slip_tc.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
+							In my previous slide, you may have noted that my model is really rather bad at capturing the variability in the experimental data, where the timing becomes more heterogeneous as the dose of CDK1 inhibitor is lowered.
+
+							Now observe what happens if we account for mitotic slippage:
+							In the experiments we really don't know how long an individual cell has been exposed to nocodazole, but we can restict it to a maximum of 6 hours assuming that a cell entered mitosis shortly after the addition of nocodazole to the cell culture.
+
+							If I mimick this situation by allowing different times in nocodazole before the Cdk1 inhibitor was added, an account of the dose dependent variability in timing emerges naturally from the model.
 						</aside>
 					</section>
 
 					<section data-background-image="images/model_inhibition_slip_pred.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
+							And there is one more advantage: accounting for mitotic slippage allows us to formulate the testable prediction that use of very small doses of CDK1-inhibitor that do not move the system out of the bistable domain should accelerate mitotic slippage.
+
+							Thus using 40% inhibition of CDK1 should advance mitotic slipapge by 500 min. This prediction has been validated experimentally using 0.75 uM RO-3306.
 						</aside>
 					</section>
 
 					<section data-background-image="images/uKT-CycB_color.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
+							Where does this analysis leave us in terms of our understanding of the mitotic checkpoint?
+							The transient bistability as a function of maximal CDK-activity suggested by this analysis translates to bistability of the system in terms of unattached kinetochores. This is an incredibly powerful framework to reason about system-level properties of the mitotic checkpoint: it allows us to define system states in terms of basins of attraction (valleys), and explains system-level properties of the checkpoint such as its reported sensitivity towards single unattached kinetochores, and its irreversible inactivation in anaphase.
+							Whereas we have not conclusively shown that a bistable switch underpins mitotic checkpoint control, we observed fingerprints of bistability, and are able to formulate a wide range of predictions that are yet to be tested experimentally.
 						</aside>
 					</section>
 
