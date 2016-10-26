@@ -349,22 +349,6 @@
          inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:stockid="Arrow1Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker10219"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path10221"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
-    </marker>
-    <marker
        inkscape:isstock="true"
        style="overflow:visible"
        id="marker6491"
@@ -876,10 +860,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="719.0132"
+     inkscape:cx="574.5132"
      inkscape:cy="540.25713"
      inkscape:document-units="px"
-     inkscape:current-layer="g5592"
+     inkscape:current-layer="g4457-4-8-9-2-7-3"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -946,7 +930,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1081,12 +1065,6 @@
             </g>
           </g>
         </g>
-        <path
-           sodipodi:nodetypes="ccscc"
-           inkscape:connector-curvature="0"
-           id="path10211"
-           d="m 415.39674,25.478294 -140.62846,0 c 0,0 -46.87616,0 -46.87616,43.078408 l 0,116.157828 0,173.3391"
-           style="fill:none;fill-rule:evenodd;stroke:#808080;stroke-width:2.24685884;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.4937179, 2.24685895000000002;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker10219)" />
         <path
            inkscape:connector-curvature="0"
            id="path6483"
