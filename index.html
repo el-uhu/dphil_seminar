@@ -89,13 +89,12 @@
 
 						**How do cells achieve this impressive feat?**
 
-						They have evolved a **control mechanism** called the **mitotic checkpoint** that **combines** the activity of a **mechanism correcting faulty attachments** with a **mechanism that delays anaphase*.
+						They have evolved a **control mechanism** called the **mitotic checkpoint** that **combines** the activity of a **mechanism correcting faulty attachments** with a **mechanism that delays anaphase**.
 					</aside>
 				</section>
 
 				<section data-background="images/error-correction.svg" data-background-size="contain">
 					<aside data-markdown class="notes">
-
 						The error correction mechanism makes sure that kinetochores are only connected to one of the two poles, and ensures that corresponding sisters are connected to opposite poles.
 
 						To achieve these so-called amphitelic attachments **Error Correction must integrate the attachment state of the kinetochore on each of the two sisters**. This is achieved through a **tension-sensitive mechanism**:
@@ -142,13 +141,14 @@
 				<!-- CROSSTALK -->
 				<section data-background-image="images/crosstalk.svg" data-background-size="contain">
 					<aside data-markdown class="notes">
-						This diagram depicts a simple network that describes how components of the checkpoint interact:
-						The top panel shows the error correction module, where aurora B destabilises attachments in a tension dependent manner.
-						The bottom half depicts the checkpoint effector module, where unattached kinetochores produce MCC that inhibits APC and prevents it from degrading cyclin B.
+						**This diagram depicts** a simple network that describes how components of the checkpoint interact:
 
-						Note that cohesin plays an important role in error correction, as it is required for the formation of amphitelic attachments, and the coupling of tension between two sisters.
+						The **top** panel shows the **error correction** module, where aurora B destabilises attachments in a tension dependent manner.
+						The **bottom** half depicts the **checkpoint effector** module, where unattached kinetochores produce MCC that inhibits APC and prevents it from degrading cyclin B.
 
-						As such it is well-posed as an entry point for perturbing the regulatory system and studying the interactions of its components over time.
+						**Note that cohesin plays an important role** in error correction, as it is required for the formation of amphitelic attachments, and the coupling of tension between two sisters.
+
+						As such it is **well-posed as an entry point for perturbing** the regulatory system and studying the interactions of its components over time.
 
 						**What can we learn about the checkpoint, if we challenge cells with precociously cleaved cohesin?**
 
@@ -161,136 +161,135 @@
 						### They first looked at timing of mitosis:
 						**Control cells** take about 10-15 minutes to complete mitosis, whereas cells treated with the microtubule poison **colchicine**, that depolymerises microtubules take more than five hours.
 
-						If premature cohesin cleavage activated the checkpoint fully, one would expect to oserve a  similar duration, however strikingly, they observed that in this case cells exit mitosis within 40-60 min.
+						**If premature cohesin cleavage activated the checkpoint fully**, one would expect to oserve a  similar duration, **however strikingly**, they observed that in this case cells exit mitosis within 40-60 min.
 
 						Interestingly, when additionally treated with colchicine, a similar duration of mitosis to pure colchicine treatment was oserved.
 
-						To complement these data, my collaborators performed an extensive charcterisation of the attachment state of kinetochores in these cells: When sampled  randomly in mitosis, the majority of control cells display end-on attached kinetochores, whereas in colchicine, all kinetochores are unattached.
+						**To complement these data**, my collaborators performed an extensive **charcterisation of the attachment state of kinetochores** in these cells: When **sampled  randomly in mitosis**, the **majority ofkinetochores in  control cells display end-on** attached kinetochores, whereas in **colchicine, all kinetochores are unattached**.
 
-						Interestingly, in cells subjected to premature cohesin cleavage, still roughly 70% of all kinetochores display end-on attachments.
+						Interestingly, in cells subjected to **premature cohesin cleavage, still roughly 70% of all kinetochores display end-on** attachments.
 
-						These data suggest that error correction is not working properly, as the frequency of end-on attachments is significantly higher than expected. This finding was further corroborated by kinetochore tracking experiments that showed that the error correction was losing its capacity to destabilise erroneous attachments in cells subjected to premature cohesin cleavage.
+						**These data suggest that error correction is not working properly**, as the **frequency of end-on attachments is significantly higher than expected**. This **finding was further corroborated by kinetochore tracking experiments** that showed that the error correction was **losing its capacity to destabilise erroneous attachments** in cells subjected to premature cohesin cleavage.
 					</aside>
 				</section>
 
 				<section data-background-image="images/crosstalk_imaging.svg" data-background-size="contain">
 					<aside data-markdown class="notes">
-						Remember that the APC/C activation and onset of anaphase is delayed by the checkpoint effector module.
-						So for the short duration of mitosis to be caused by gradual stabilisation of attachments due to the error correction losing grit, we would expect to observe an effect at the level of checkpoint effector signalling: gradual activation of APC/C and declining rates of MCC-assembly
+						**For the short duration of mitosis to be caused by gradual stabilisation of attachments due to the error correction losing grit, we would expect to observe an effect at the level of checkpoint effector signalling: gradual activation of APC/C and declining rates of MCC-assembly**
 
-						Thus my collaborators next performed live-cell imaging of the APC/C-substrate cyclin B.
-						Cyclin B levels are relatively stable in colchicine treatment, and rapindly decline in sigmoidal fashion in cells undergoin unperturbed mitosis.
-						Upon premature cohesin cleavage however, they become degraded with a characteristic biphasic pattern, consistent with a partial activity of APC/C due to incomplete inhibition by the checkpoint.
+						Thus my collaborators next performed **live-cell imaging** of the APC/C-substrate cyclin B.
+						Cyclin B levels are relatively **stable in colchicine** treatment, and **rapidly drop in switch-like fashion** in cells undergoing unperturbed mitosis.
 
-						These findings were further supported by analysis of the localisation of the MCC-component Mad2 to kinetochores, which is a necessary condition for checkpoint signalling. Upon premature cohesin cleavage, the localisation of Mad2 to kinetochores decreased gradually, indicating a decreasing rate of MCC-assembly.
+						**Upon premature cohesin cleavage however**, they become degraded with a **characteristic biphasic pattern**, consistent with a partial activity of APC/C due to incomplete inhibition by the checkpoint.
+
+						These findings were **further supported by analysis of the localisation of the MCC-component Mad2 to kinetochores, which is a necessary condition for checkpoint signalling**. Upon premature cohesin cleavage, the localisation of Mad2 to kinetochores **decreased gradually**, indicating a decreasing rate of MCC-assembly, and ultimately **disappear completely**.
 					</aside>
 				</section>
 
 				<section data-background-image="images/crosstalk_coremodel.svg" data-background-size="contain">
 					<aside data-markdown class="notes">
-						Can this gradual collapse of mitotic checkpoint signalling upon premature cohesin cleavage be explained by a purely linear model, where checkpoint effector signalling is downstream of error correction and Cdk1 activity is downstream of MCC-production?
+						**Can this gradual collapse of mitotic checkpoint signalling upon premature cohesin cleavage be explained by a purely linear model, where checkpoint effector signalling is downstream of error correction and Cdk1 activity is downstream of MCC-production?**
 
-						To test this hypothesis, I converted the influence diagram shown on the left into a mathematical model that allowed me to simulate the activities of key components of the regulatory system over time in a manner that accounts for the inherent stochasticity of the system.
+						To test this hypothesis, I converted the influence diagram shown on the left into a mathematical model that allowed me to simulate the activities of components of the regulatory system over time in a manner that accounts for the inherent stochasticity of the system.
 
-						The resulting simulations are shown to the right of the influence diagram. The left column depicts simulations for a control cell, and is shown to demonstrate the model produces consistent results with the experimental data.
+						The **left column** depicts simulations for a **control** cell, and is shown to **demonstrate the model produces consistent results with the experimental data**.
 
-						The simulations shown in the right column correspond to cells subjected to premature cohesin cleavage, where the tension-dependence of error correction is compromised: Here the simulations highlight two problems with the linear model: It predicts that error correction stays active and continues to destabilise attachments. Moreover, the model predicts a degradation pattern for cyclin B that appears exponential and converges towards a non-zero steady-state of cyclin B.
-						Thus is very unlike the biphasic degradation pattern observed in the live-cell imaging of cyclin B!
+						The simulations shown in the **right column** correspond to cells subjected to **premature cohesin cleavage**: Here the **simulations highlight two problems with the linear model**: It predicts that error **correction stays active and continues to destabilise attachments**. Moreover, the model predicts a **degradation pattern for cyclin B that appears exponential and converges towards a non-zero steady-state** of cyclin B
+						Thus is **very unlike the biphasic degradation pattern observed in the live-cell imaging** of cyclin B!
 
-						Studies in higher eukaryotes have show that the activity of cyclin B:Cdk1 is required to sustain the delay elicited by the checkpoint effector module. - Can we capture the experimental data by accounting for the experimental data?
+						**Studies in higher eukaryotes have shown that the activity of cyclin B:Cdk1 is required to sustain the delay** elicited by the checkpoint effector module. - **Can we capture the experimental data by accounting for this interaction?**
 					</aside>
 				</section>
 
 					<section data-background-image="images/crosstalk_sfbmodel.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							Indeed, by introducing feedback within the checkpoint effector module, we are able to capture the biphasic degradation pattern of cyclin B and termination of MCC-production observed in the imaging data.
+							**Indeed**, by introducing feedback within the checkpoint effector module, we are able to **capture the biphasic degradation pattern of cyclin B and termination of MCC-production** observed in the imaging data.
 
-							However, the model still predicts that error correction should remain active if cohesin is absent.
+							However, the **model still predicts that error correction should remain active** if cohesin is absent.
 						</aside>
 					</section>
 
 					<section data-background-image="images/crosstalk_dfbmodel.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							To explain the gradual inactivation of the error correction mechanism, I introduced a second feedback mechanism, whereby Cdk1 activity influences the activity of Aurora B in the error correction.
+							**To explain the gradual inactivation of the error correction mechanism, I introduced a second feedback mechanism**, whereby Cdk1 activity influences the activity of Aurora B in the error correction.
 
-							The resulting simulations show that the introduction of this additional feedback causes the activity of Aurora B to decay over time leading to a stabilisation of attachments, consistent with our experimental data.
+							The resulting simulations show that the **introduction of this additional feedback causes the activity of Aurora B to decay over time leading to a stabilisation of attachments**, consistent with our experimental data.
 						</aside>
 					</section>
 
 					<section data-background-image="images/crosstalk_pred.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							To test whether the model is useful beyond merely explaing what we already know, I generated a testable prediction.
+							**To test whether the model is useful beyond merely explaing what we already know, I generated a testable prediction.**
 
-							The model puts Cdk1 in a critical place in the signalling network, as it feeds back the activity of checkpoint effector signalling to error correction ad is part of the feedback loop inherent in the checkpoint effector mechanism.
-							We simulated partial inhibition of Cdk1-activity, and looked at the resulting timing of mitosis.
+							**We simulated partial inhibition of Cdk1-activity, and looked at the resulting timing of mitosis.**
 
-							From this analysis we predict that the duration of mitosis in cells subjected to premature loss of cohesin should display a nonlinear, hypersensitive dependence on Cdk1 inhibition, which was experimentally confirmed by my collaborators.
+							From this analysis we **predict that the duration of mitosis in cells subjected to premature loss of cohesin should display a nonlinear, hypersensitive dependence on Cdk1 inhibition**, which was experimentally confirmed by my collaborators.
 
-							We were thus able to uncover multiple systems-level feedback mechanism that explain the poor response of the checkpoint in Drosophila neuroblast to precociously cleaved cohesin.
+							We were thus able to **uncover multiple systems-level feedback mechanism** that contribute to the **self-stabilisation and efficient inactivation** of the chckpoint **yet also explain the poor response** of the checkpoint in Drosophila neuroblast to precociously cleaved cohesin.
 						</aside>
 					</section>
 
 					<section data-background-image="images/ro_medium_dose.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							The feedback mechanism within the checkpoint effector module was the focus of a second line of work I conducted with my collaborators Amalie Dick and Daniel Gerlich at Imba, Vienna.
+							The **feedback mechanism within the checkpoint effector module was the focus of a second line of work I conducted with my collaborators Amalie Dick and Daniel Gerlich at Imba, Vienna.**
 
-							In our study we focussed on live-cell imaging of human RPE1 cells expressing endogenously tagged cyclin B-Venus and their response to inhibition of CDK1.
+							In our study we focussed on **live-cell imaging of human RPE1 cells expressing endogenously tagged cyclin B-Venus and their response to inhibition of CDK1**.
 
-							To isolate the checkpoint effector module from error correction, cells were treated with nocodazole, which depolymerises microtubules and arrests them in prometaphase.
-							To probe for the role of a CDK1-mediated feedback mechanism in the checkpoint effector module, my collaborators then added different doses of the CDK1-inhibitor RO-3306 and quantified levels of cyclin B-Venus over time.
+							To **isolate the checkpoint effector module from error correction**, cells were treated with **nocodazole**, which depolymerises microtubules and arrests them in prometaphase.
+							To **probe for the role of a CDK1-mediated feedback mechanism in the checkpoint effector** module, my collaborators then added **different doses of the CDK1-inhibitor RO-3306 and quantified levels of cyclin B-Venus over time**.
 
-							As in the previous study, cyclin B levels remain relatively stable over many hours when treated with microtubule poison alone.
-							However, upon addition of 10uM RO-3306 or higher, cyclin B became rapidly degraded in sigmoidal fashion within 25 minutes.
+							As in the previous study, cyclin B levels remain relatively **stable over many hours when treated with microtubule poison** alone.
+							However, upon addition of **10uM RO-3306 or higher**, cyclin B became **rapidly degraded in sigmoidal fashion** within 25 minutes.
 
-							The addition of a lower dose, such as 3uM RO-3306, elicited a striking response: It neither led to an abrupt switch like degradation, not to a biphasic degradation pattern, but cyclin B levels remained stable for about an hour until rapid degradation of cyclin B set in.
+							The addition of a **lower dose**, such as 3uM RO-3306, elicited a **striking response**: It **neither** led to an **abrupt switch** like degradation, **nor to a biphasic degradation pattern**, but cyclin B levels remained **stable for about an hour until rapid degradation of cyclin B set in**.
 						</aside>
 					</section>
 
 					<section data-background-image="images/model_inhibition_third.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							To understand the unexpected response to CDK1 inhibition better, I adapted the model presented in the previous part of the talk, however I simplified it structurally - disregarding the error correction module, which is irrelevant in nocodazole treated cells - and implemented it as system of ordinary differential equations.
+							To **understand the unexpected response to CDK1 inhibition better**, I **adapted the model presented in the previous part** of the talk, however I **simplified it structurally** - disregarding the **error correction** module, which is **irrelevant in nocodazole treated cells**.
 
-							I initially conditioned the model to capture the degradation of cyclin B during normal mitotic progression, and in a nocodazole arrest, and then simulated treatment with a CDK1-inhibitor by reducing the parameter representig the pool of total available CDK1 in the system.
+							I initially **conditioned the model to capture the degradation of cyclin B during normal mitotic progression, and in a nocodazole arrest**, and **then simulated treatment with a CDK1-inhibitor** by **first** simulating treatment with **nocodazole alone** for some time, **then** reducing the parameter representing the **pool of total available CDK1** in the system.
 
-							Using this model, I was able to qualitatively reporduce the cyclin B-timecourses observed upon addition of 10 and 3 uM RO-3306.
+							Using this model, I was able to **qualitatively reproduce the cyclin B-timecourses observed upon addition of 10 and 3 uM RO-3306**.
 
-							To get a more global perspective at the response of the system to different extents of CDK1-inhibition, I created a bifurcation diagram which shows how the cyclin B steady states change as a function of CDK-inhibition.
+							To get a more **global perspective** at the response of the system to different extents of CDK1-inhibition, I **created a bifurcation diagram** which shows how the **cyclin B steady states change as a function of CDK-inhibition**.
 
-							Here, the solid lines depict stable steady states, that form valleys attraction, whereas the dashed line depicts unstable steady states, akin to a mountain ridge.
-							The model exhibits bistability for CDK1 inhibitions of less than 50%, where the upper steady state corresponds to a checkpoint effector-"ON" state, and the lower steady state correspond to a checkpoint effector-"OFF" state.
+							Here, the **solid lines** depict stable steady states, that form **valleys attraction**, whereas the **dashed line** depicts unstable steady states, **akin to a mountain ridge**.
+							The model exhibits **bistability for CDK1 inhibitions of less than 50%**, where the upper steady state corresponds to a checkpoint effector-**"ON" state**, and the lower steady state correspond to a checkpoint effector-**"OFF" state**.
 
-							As the CDK1-inhibition is increased beyond 50%, the domain, where ON and OFF state co-exist disappears and only the "OFF"-state is stable.
+							As the **CDK1-inhibition is increased beyond 50%**, the domain, where ON and OFF state co-exist **disappears and only the "OFF"-state is stable**.
 
-							In this framework, both doses of CDK-inhibitor are best explained by inhibitions of CDK1 beyond 50% residual activity.
-							In both cases, the checkpoint "ON" steady state is not stable, however for the lower dose, CDK1 activity is still high enough that it can delay, yet not block activation of APC/C via MCC.
+							In this framework, **both doses of CDK-inhibitor are best explained by inhibitions of CDK1 beyond 50%** residual activity.
+							In both cases, the checkpoint **"ON" steady state is not stable**, however for the **lower dose**, CDK1 activity is still high enough that it can** delay, yet not block activation of APC/C via MCC**.
 						</aside>
 					</section>
 
 					<section data-background-image="images/model_inhibition_slip_noc.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							If you have head about the phenomenon of mitotic slippage this may sound very puzzling to you.
-							What you see here is the timecourse of cyclin B in a nocodazole-treated cell, which was recorded over around 30 hours.
-							Even if no Cdk1-inhibition was applied, the cell eventually exits mitosis. - So how can we consider it stable?
+							**If you have head about the phenomenon of mitotic slippage this may sound very puzzling to you.**
+							What you see **here is the timecourse of cyclin B in a nocodazole-treated cell, which was recorded over around 30 hours**.
+							**Even if no Cdk1-inhibition was applied**, the cell eventually **exits mitosis**. - **So how can we consider the ON state stable**?
 
-							The answer is that what I have shown you before was merely a snapshot, where I froze the system at a particular point in time. To recapitulate mitotic slippage, the model incorporates a mechanism exterior to checkpoint effector mechanism, which slowly pulls down the cyclin B steady state. The mountain range that separates two valleys corresponding to checkpoint effector on and off is really more like a glacier: it is melting away over time!
+							The answer is that **the bfurcation diagram I have shown you before** was merely a **snapshot**, where I **froze the system at a particular point** in time. To **recapitulate mitotic slippage**, the model incorporates a **mechanism exterior to checkpoint effector mechanism**, which  **very slowly reduces** the cyclin B steady state. The **mountain range** that separates two valleys corresponding to checkpoint effector on and off is really **more like a glacier: it is melting away over time!**
 
 						</aside>
 					</section>
 
 					<section data-background-image="images/model_inhibition_slip_tc.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							In my previous slide, you may have noted that my model is really rather bad at capturing the variability in the experimental data, where the timing becomes more heterogeneous as the dose of CDK1 inhibitor is lowered.
+							**You may have noted that my model is really rather bad at capturing the variability in the experimental data, where the timing becomes more heterogeneous as the dose of CDK1 inhibitor is lowered.**
 
-							Now observe what happens if we account for mitotic slippage:
-							In the experiments we really don't know how long an individual cell has been exposed to nocodazole, but we can restict it to a maximum of 6 hours assuming that a cell entered mitosis shortly after the addition of nocodazole to the cell culture.
+							Now **observe what happens if we account for mitotic slippage**:
+							In the **experiments we don't know how long** an individual cell has been **exposed to nocodazole**, efore the inhibitor was added
 
-							If I mimick this situation by allowing different times in nocodazole before the Cdk1 inhibitor was added, an account of the dose dependent variability in timing emerges naturally from the model.
+							If I **mimick** this situation by allowing different times in nocodazole before the Cdk1 inhibitor was added, an account of the dose dependent **variability in timing emerges naturally from the model**.
 						</aside>
 					</section>
 
 					<section data-background-image="images/model_inhibition_slip_pred.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							And there is one more advantage: accounting for mitotic slippage allows us to formulate the testable prediction that use of very small doses of CDK1-inhibitor that do not move the system out of the bistable domain should accelerate mitotic slippage.
+							And there is **one more advantage**: accounting for mitotic slippage allows us to formulate the **testable prediction that use of very small doses of CDK1-inhibitor** that do not move the system out of the bistable domain should accelerate mitotic slippage.
 
 							Thus using 40% inhibition of CDK1 should advance mitotic slipapge by 500 min. This prediction has been validated experimentally using 0.75 uM RO-3306.
 						</aside>
@@ -298,9 +297,12 @@
 
 					<section data-background-image="images/uKT-CycB_color.svg" data-background-size="contain">
 						<aside data-markdown class="notes">
-							Where does this analysis leave us in terms of our understanding of the mitotic checkpoint?
-							The transient bistability as a function of maximal CDK-activity suggested by this analysis translates to bistability of the system in terms of unattached kinetochores. This is an incredibly powerful framework to reason about system-level properties of the mitotic checkpoint: it allows us to define system states in terms of basins of attraction (valleys), and explains system-level properties of the checkpoint such as its reported sensitivity towards single unattached kinetochores, and its irreversible inactivation in anaphase.
-							Whereas we have not conclusively shown that a bistable switch underpins mitotic checkpoint control, we observed fingerprints of bistability, and are able to formulate a wide range of predictions that are yet to be tested experimentally.
+							**Where does this analysis leave us in terms of our understanding of the mitotic checkpoint?**
+							The **transient bistability **as a function of maximal CDK-activity suggested by this analysis **translates to bistability **of the system in terms of **another factor that influences MCC-production** unattached kinetochores.
+
+							This is an **incredibly powerful framework** to **reason about system-level properties** of the mitotic checkpoint: it allows us to **define states in terms of basins of attraction (valleys)**, and explains system-level properties of the checkpoint such as its reported **sensitivity** towards single unattached kinetochores, and its **irreversible inactivation in anaphase**.
+
+							Whereas we have **not conclusively shown** that a bistable switch underpins mitotic checkpoint control, **we observed fingerprints of bistability**, and are **now able to formulate a wide range of predictions** that are yet to be tested experimentally.
 						</aside>
 					</section>
 
