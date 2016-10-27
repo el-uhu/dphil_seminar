@@ -859,11 +859,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="574.5132"
-     inkscape:cy="540.25713"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="644.05271"
+     inkscape:cy="408.8399"
      inkscape:document-units="px"
-     inkscape:current-layer="g4457-4-8-9-2-7-3"
+     inkscape:current-layer="g4354"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -1174,7 +1174,7 @@
            id="tspan12243-2"
            y="646.32294"
            x="448.58167"
-           sodipodi:role="line">cyclin B:Cdk1</tspan></text>
+           sodipodi:role="line">cyclin B:CDK1</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-1-6-0-2"
@@ -1464,7 +1464,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.79341888px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end"
            y="468.53705"
            x="574.88263"
-           sodipodi:role="line">MBS</tspan></text>
+           sodipodi:role="line">KT</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-2-1"
@@ -1481,7 +1481,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.79341888px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end;fill:#808080"
            y="314.8136"
            x="567.70459"
-           sodipodi:role="line">MBS</tspan></text>
+           sodipodi:role="line">KT</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-2-15"
@@ -1538,10 +1538,11 @@
            d="m 724.89895,936.41502 512.34335,0 0,-396.65294 -512.34335,0 0,396.65294 z" />
         <g
            id="g18"
-           transform="matrix(0.11477227,0,0,-0.11477227,642.26282,985.99663)">
+           transform="matrix(0.11477227,0,0,-0.11477227,644.26282,985.99663)">
           <g
              clip-path="url(#clipPath22-3)"
-             id="g20">
+             id="g20"
+             transform="matrix(-1,0,0,1,5904,0)">
             <path
                inkscape:connector-curvature="0"
                id="path26"
@@ -1554,34 +1555,10 @@
                d="m 2919.98,2290.53 3.48,-48.03 5.62,-46.14 7.72,-45.59 9.34,-43.32 11.96,-45.54 14.3,-45.85 15.59,-43.19 19.05,-46.23 21.09,-45.21 22.89,-43.86 25.21,-43.52 27.64,-43.23 29.18,-41.56 32.47,-42.26 34.5,-41.11 36.69,-40.17 38.6,-38.91 40.71,-37.89 42.89,-36.91 44.64,-35.6 49.49,-36.54 52.14,-35.6 54.9,-34.69 55.19,-32.33 59.37,-32.28 62.47,-31.5 65.75,-30.73 69.23,-30 74.82,-30 79.48,-29.44 83.99,-28.71 88.82,-28 94.03,-27.29 99.63,-26.6 105.66,-25.923 113.73,-25.578 122.62,-25.219 122.13,-22.984 128.8,-22.215 138.73,-21.886 72.72,-10.715 0,0" />
             <path
                inkscape:connector-curvature="0"
-               id="path30"
-               style="fill:none;stroke:#1d1a26;stroke-width:20;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:100000;stroke-dasharray:none;stroke-opacity:1"
-               d="m 2208,437.137 2977.02,0.047 0,0" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path36"
-               style="fill:none;stroke:#293141;stroke-width:20;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:100000;stroke-dasharray:none;stroke-opacity:1"
-               d="m 2208,436.621 2977.6,0.035 0,0" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path42"
-               style="fill:none;stroke:#2f828a;stroke-width:20;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:100000;stroke-dasharray:none;stroke-opacity:1"
-               d="m 2208,435.074 2978.54,0.02 0,0" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path48"
-               style="fill:none;stroke:#30a09b;stroke-width:20;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:100000;stroke-dasharray:none;stroke-opacity:1"
-               d="m 2208,434.613 2979.79,0.012 0,0" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path54"
-               style="fill:none;stroke:#304a5c;stroke-width:20;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:100000;stroke-dasharray:none;stroke-opacity:1"
-               d="m 2208,436.105 2977.69,0.032 0,0" />
-            <path
-               inkscape:connector-curvature="0"
                id="path60"
                style="fill:none;stroke:#316575;stroke-width:20;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:100000;stroke-dasharray:none;stroke-opacity:1"
-               d="m 2208,435.59 2976.05,0.023 0,0" />
+               d="m 723.20986,505.29324 4460.84014,0.023 0,0"
+               sodipodi:nodetypes="ccc" />
             <path
                d="m 5176.2086,3274.1042 -165.1599,-25.07 -171.21,-28.57 -157.75,-29.09 -145.72,-29.69 -134.88,-30.4 -94.69,-23.3 -89.59,-23.81 -84.8201,-24.35 -80.3499,-24.94 -76.16,-25.6 -72.22,-26.32 -68.48,-27.11 -64.94,-27.95 -61.55,-28.91 -58.3,-29.92 -55.17,-31.06 -52.11,-32.25 -49.12,-33.6 -38.67,-29.09 -36.63,-30.15 -34.55,-31.29 -32.47,-32.49 -30.33,-33.74 -28.13,-35.07 -23.36,-32.73 -21.44,-33.86 -19.45,-34.95 -17.34,-36.08 -15.17,-37.13 -12.88,-38.11 -10.01,-36.7799 -7.84,-37.4501 -5.65,-37.97 -3.42,-38.34 -1.2,-38.5399 0.98,-38.5801 0.2,-3.5199 0,0"
                style="fill:none;stroke:#293141;stroke-width:20;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:100000;stroke-dasharray:none;stroke-opacity:1"
@@ -1860,8 +1837,8 @@
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:Raleway"
                id="tspan154"
                sodipodi:role="line"
-               y="22.1406"
-               x="-374.61401 -358.07199 -348.26199 -339.19 -335.26599 -318.724 -308.914 -304.01801 -299.42801 -287.07999 -275.884 -266.34399 -258.64001 -251.04401 -241.23399 -231.35201 -225.32201 -221.39799 -211.804 -207.88 -201.85001 -192.09399 -187.504 -177.694 -171.754 -165.724 -155.158 -148.84 -144.25 -140.326 -129.832 -119.338 -115.414 -104.308 -100.384 -94.353996 -90.43 -79.720001 -69.225998 -64.636002 -59.793999 -46.942001">maximal Cdk1-activity after inhibition (%)</tspan>
+               x="0"
+               y="0.35100001" />
           </text>
         </g>
         <path
@@ -2046,13 +2023,13 @@
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:Raleway"
                id="tspan228"
                sodipodi:role="line"
-               y="0"
-               x="0 12.348 22.104 31.986">CycB</tspan>
+               x="0"
+               y="0">cyclin B</tspan>
           </text>
         </g>
         <text
-           y="1023.8239"
-           x="-902.00745"
+           y="919.82391"
+           x="-906.00745"
            id="text226-6-5"
            style="font-variant:normal;font-weight:normal;font-size:20.65900612px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(0,-1,1,0,0,0)">
@@ -2060,8 +2037,8 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:Raleway"
              id="tspan228-7-3"
              sodipodi:role="line"
-             x="-902.00745"
-             y="1023.8239">0.75uM</tspan>
+             x="-906.00745"
+             y="919.82391">0.75uM</tspan>
         </text>
         <g
            transform="translate(33.55962,496.75667)"
@@ -2912,12 +2889,37 @@
                id="tspan5399-3"
                style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.42882252px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;text-anchor:middle">+ 0.75 uM RO-3306</tspan></text>
         </g>
+        <text
+           y="988.18518"
+           x="894.21417"
+           id="text226-7"
+           style="font-variant:normal;font-weight:normal;font-size:20.65900612px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+          <tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:Raleway"
+             id="tspan228-5"
+             sodipodi:role="line"
+             x="894.21417"
+             y="988.18518">CDK1 inhibition (%)</tspan>
+        </text>
       </g>
       <path
          style="fill:none;fill-rule:evenodd;stroke:#999999;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 1009.2218,566.13985 0,-397.39401"
+         d="m 905.2218,566.13985 0,-397.39401"
          id="path4873-3"
          inkscape:connector-curvature="0" />
+      <text
+         y="661.8302"
+         x="-803.49915"
+         id="text226-3"
+         style="font-variant:normal;font-weight:normal;font-size:20.65900612px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(0,-1,1,0,0,0)">
+        <tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:Raleway"
+           id="tspan228-6"
+           sodipodi:role="line"
+           x="-803.49915"
+           y="661.8302">cyclin B</tspan>
+      </text>
     </g>
   </g>
 </svg>

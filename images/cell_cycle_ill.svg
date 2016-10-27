@@ -317,9 +317,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="354.5495"
-     inkscape:cy="103.64291"
+     inkscape:zoom="3.959798"
+     inkscape:cx="142.80852"
+     inkscape:cy="156.33554"
      inkscape:document-units="px"
      inkscape:current-layer="svg5317"
      showgrid="false"
@@ -940,13 +940,18 @@
      style="font-style:normal;font-weight:normal;font-size:7.21209002px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      xml:space="preserve"><tspan
        id="tspan10106-1"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.21209002px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;text-anchor:middle;fill:#000000"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:7.21209002px;font-family:Raleway;-inkscape-font-specification:'Raleway Heavy';text-align:center;text-anchor:middle;fill:#000000"
        y="225.45674"
        x="210.31609"
-       sodipodi:role="line">NUCLEAR</tspan><tspan
-       id="tspan4828"
+       sodipodi:role="line">MITOSIS</tspan><tspan
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.21209002px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;text-anchor:middle;fill:#000000"
        y="234.47185"
+       x="210.31609"
+       sodipodi:role="line"
+       id="tspan4439">NUCLEAR</tspan><tspan
+       id="tspan4828"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.21209002px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;text-anchor:middle;fill:#000000"
+       y="243.48697"
        x="210.31609"
        sodipodi:role="line">DIVISION</tspan></text>
   <text
@@ -1250,12 +1255,36 @@
            d="m 210.81459,270.91015 -1.40574,7.08779"
            id="path6923-1-0-4-3-6-1-7"
            inkscape:connector-curvature="0" />
-        <path
-           sodipodi:nodetypes="cc"
-           style="fill:none;fill-rule:evenodd;stroke:#37c871;stroke-width:0.76734781px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 223.5703,270.16547 5.56461,-2.91763"
-           id="path6923-1-0-6-3-9-1"
-           inkscape:connector-curvature="0" />
+        <g
+           transform="matrix(-1,0,0,-1,591.92275,265.26607)"
+           id="g4477-3">
+          <rect
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10.45316601;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="rect4440-4"
+             width="21.116352"
+             height="44.986237"
+             x="301.38138"
+             y="80.636864"
+             ry="6.8986759" />
+          <circle
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.60969114;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="path4442-4"
+             cx="311.93958"
+             cy="89.847511"
+             r="6.0445256" />
+          <circle
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.5;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ff6600;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="path4442-2-4"
+             cx="311.93958"
+             cy="103.12994"
+             r="6.0445256" />
+          <circle
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.5;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#008000;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="path4442-20-1"
+             cx="311.93958"
+             cy="116.41253"
+             r="6.0445256" />
+        </g>
       </g>
       <circle
          transform="matrix(-0.78346569,-0.62143504,0.62143504,-0.78346569,0,0)"

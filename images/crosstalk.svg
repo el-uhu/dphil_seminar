@@ -506,10 +506,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000002"
-     inkscape:cx="368.31297"
+     inkscape:cx="875.31292"
      inkscape:cy="630.65982"
      inkscape:document-units="px"
-     inkscape:current-layer="g4457-4-8-9-2-7-3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -650,7 +650,7 @@
          x="784"
          y="-8.5753174"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:center;text-anchor:middle"
-         id="tspan8034">Premature loss of cohesin</tspan></text>
+         id="tspan8034">Premature Loss of Cohesin</tspan></text>
     <g
        transform="matrix(-0.71310955,-0.67629575,0.67629575,-0.71310955,830.0078,-49.437398)"
        id="g30756-2-7-6-5">
@@ -1111,7 +1111,7 @@
            id="tspan12243-2"
            y="646.32294"
            x="448.58167"
-           sodipodi:role="line">cyclin B:Cdk1</tspan></text>
+           sodipodi:role="line">cyclin B:CDK1</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-1-6-0-2"
@@ -1402,7 +1402,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.79341888px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end"
            y="468.53705"
            x="574.88263"
-           sodipodi:role="line">MBS</tspan></text>
+           sodipodi:role="line">KT</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-2-1"
@@ -1419,7 +1419,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.79341888px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end"
            y="314.8136"
            x="567.70459"
-           sodipodi:role="line">MBS</tspan></text>
+           sodipodi:role="line">KT</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-2-15"

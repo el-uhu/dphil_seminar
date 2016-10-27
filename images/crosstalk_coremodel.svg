@@ -528,11 +528,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="513.77825"
-     inkscape:cy="801.40091"
+     inkscape:zoom="1"
+     inkscape:cx="580.71263"
+     inkscape:cy="514.68719"
      inkscape:document-units="px"
-     inkscape:current-layer="g30756-2-7-6-3"
+     inkscape:current-layer="g10068-3"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -830,7 +830,7 @@
            id="tspan12243-2"
            y="646.32294"
            x="448.58167"
-           sodipodi:role="line">cyclin B:Cdk1</tspan></text>
+           sodipodi:role="line">cyclin B:CDK1</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-1-6-0-2"
@@ -2400,17 +2400,17 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:34.17477417px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="2492.1797"
+           x="2462.658"
            y="-321.62479"
            id="text12239-3-9-9"
            sodipodi:linespacing="125%"
            inkscape:transform-center-x="12.857143"
            inkscape:transform-center-y="-5.7142964"><tspan
              sodipodi:role="line"
-             x="2492.1797"
+             x="2462.658"
              y="-321.62479"
              id="tspan12243-2-2-0"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.09048462px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end">Model Construction</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.09048462px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end">Model Simulations</tspan></text>
         <g
            transform="matrix(0.27482901,1.7563225,-1.7563225,0.27482901,2462.9041,-729.66218)"
            id="g3654">
@@ -2813,7 +2813,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.79341888px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end"
            y="468.53705"
            x="574.88263"
-           sodipodi:role="line">MBS</tspan></text>
+           sodipodi:role="line">KT</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-2-1"
@@ -2830,7 +2830,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.79341888px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end"
            y="314.8136"
            x="567.70459"
-           sodipodi:role="line">MBS</tspan></text>
+           sodipodi:role="line">KT</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-2-15"

@@ -703,11 +703,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7071068"
-     inkscape:cx="895.84525"
-     inkscape:cy="370.8341"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="906.33291"
+     inkscape:cy="320.72589"
      inkscape:document-units="px"
-     inkscape:current-layer="g4457-4-8-9-2-7-3"
+     inkscape:current-layer="g5152"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -1013,7 +1013,7 @@
            id="tspan12243-2"
            y="646.32294"
            x="448.58167"
-           sodipodi:role="line">cyclin B:Cdk1</tspan></text>
+           sodipodi:role="line">cyclin B:CDK1</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-1-6-0-2"
@@ -2087,7 +2087,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.79341888px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end"
            y="468.53705"
            x="574.88263"
-           sodipodi:role="line">MBS</tspan></text>
+           sodipodi:role="line">KT</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-2-1"
@@ -2104,7 +2104,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.79341888px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:end;text-anchor:end"
            y="314.8136"
            x="567.70459"
-           sodipodi:role="line">MBS</tspan></text>
+           sodipodi:role="line">KT</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text12239-3-2-15"
@@ -2394,30 +2394,6 @@
             </g>
           </g>
         </g>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:11.14218616px;line-height:125%;font-family:sans-serif;letter-spacing:22.71520233px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="1066.7816"
-           y="127.22177"
-           id="text21017-8"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan21019-0"
-             x="1066.7816"
-             y="127.22177"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.14218616px;line-height:125%;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:start;letter-spacing:1.63418734px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff">end-on</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:11.14218616px;line-height:125%;font-family:sans-serif;letter-spacing:22.71520233px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="1066.4252"
-           y="217.59148"
-           id="text21017-8-8"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan21019-0-5"
-             x="1066.4252"
-             y="217.59148"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.14218616px;line-height:125%;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';text-align:start;letter-spacing:1.63418734px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff">lateral</tspan></text>
         <g
            id="g5880"
            transform="matrix(0.65228021,0,0,0.65228021,17.709086,201.59252)">
@@ -2750,16 +2726,16 @@
       </g>
       <text
          y="655.68188"
-         x="-725.23108"
+         x="-733.23108"
          id="text4865-9"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.11689949px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
          transform="matrix(0,-1,1,0,0,0)">
         <tspan
            y="655.68188"
-           x="-725.23108"
+           x="-733.23108"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold'"
            id="tspan4867-2"
-           sodipodi:role="line">Kinetochore (%)</tspan>
+           sodipodi:role="line">Kinetochores (%)</tspan>
       </text>
     </g>
   </g>
