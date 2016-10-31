@@ -868,8 +868,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="904.65598"
-     inkscape:cy="359.93963"
+     inkscape:cx="1105.415"
+     inkscape:cy="755.91942"
      inkscape:document-units="px"
      inkscape:current-layer="g148"
      showgrid="false"
@@ -1767,6 +1767,46 @@
                x="219.52287"
                y="-1.5783324">CDK1 inhibition (%)</tspan>
           </text>
+          <g
+             id="g5082"
+             transform="matrix(0.31382626,-0.1529868,0.1529868,0.31382626,216.0772,345.58718)">
+            <path
+               inkscape:transform-center-y="-13.313092"
+               inkscape:transform-center-x="20.074558"
+               transform="scale(1,-1)"
+               d="m 768.696,-365.42474 -0.0832,22.86061 -21.24718,-8.43631 -6.2478,21.99044 -18.1832,-13.85589 -11.94905,19.48934 -13.77065,-18.24784 -16.76411,15.5428 -8.33678,-21.28643 -20.33585,10.44353 -2.28462,-22.74632 -22.39938,4.56971 3.93698,-22.5192 -22.80163,-1.64303 9.86659,-20.62194 -21.51281,-7.73391 15.06445,-17.19525 -18.62847,-13.2512 19.14505,-12.49327 -14.36255,-17.78571 21.80573,-6.86471 -9.03141,-21.00113 22.84919,-0.72703 -3.03046,-22.65901 22.19803,5.46457 3.19524,-22.63636 19.90055,11.25089 9.18396,-20.93488 16.12713,16.20278 14.49156,-17.68075 11.15764,19.95298 18.72438,-13.11532 5.36063,22.22336 21.5685,-7.57719 -0.83394,22.84554 22.81298,-1.47709 -6.96667,21.77337 22.36553,4.73254 -12.58272,19.08637 20.25934,10.5912 -17.26556,14.98382 16.65059,15.66436 -20.66789,9.76998 11.80695,19.57575 -22.53737,3.83156 6.08764,22.03531 z"
+               inkscape:randomized="0"
+               inkscape:rounded="0"
+               inkscape:flatsided="false"
+               sodipodi:arg2="0.97619954"
+               sodipodi:arg1="0.83960856"
+               sodipodi:r2="112.56185"
+               sodipodi:r1="94.551956"
+               sodipodi:cy="-435.8075"
+               sodipodi:cx="705.55853"
+               sodipodi:sides="23"
+               id="path5072"
+               style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#d40000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               sodipodi:type="star" />
+            <text
+               transform="scale(1,-1)"
+               sodipodi:linespacing="125%"
+               id="text5066"
+               y="-448.74969"
+               x="636.55573"
+               style="font-style:normal;font-weight:normal;font-size:49.70129776px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               xml:space="preserve"><tspan
+                 id="tspan5076"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';fill:#ffffff"
+                 y="-448.74969"
+                 x="636.55573"
+                 sodipodi:role="line">IT'S A</tspan><tspan
+                 id="tspan5080"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';fill:#ffffff"
+                 y="-386.62308"
+                 x="636.55573"
+                 sodipodi:role="line">MAP!!</tspan></text>
+          </g>
         </g>
         <path
            inkscape:connector-curvature="0"
